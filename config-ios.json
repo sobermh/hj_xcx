@@ -1,0 +1,16 @@
+{
+  "project_path": "C:/Users/PC/Desktop/新建文件夹/shangchengqianduan",
+  "dev_tool_path": "E:/微信web开发者工具/cli.bat",
+  "debug_mode": "ERROR",
+  "test_port": 9420,
+  "platform": "ios",
+  "device_desire": {
+    "serial": "2NSDU20B17002671"
+  },
+  "app": "wx",
+  "assert_capture": true,
+  "request_timeout": 60,
+  "remote_connect_timeout": 300,
+  "auto_relaunch": false,
+  "enable_app_log": true
+}

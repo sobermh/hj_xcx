@@ -1,0 +1,94 @@
+{
+    "case_name": "test_02_pre_arrive",
+    "run_time": "20220727 18:50:32",
+    "test_type": "TestOrder",
+    "case_doc": "\u70b9\u51fb\u5df2\u5230\u573a",
+    "success": false,
+    "failures": "",
+    "errors": "Traceback (most recent call last):\n  File \"E:\\PycharmProjects\\hj_xcx\\base\\basepage.py\", line 63, in click\n    self.locator(loc, inner_text=inner_text).click()\n  File \"E:\\PycharmProjects\\hj_xcx\\base\\basepage.py\", line 45, in locator\n    return self.page.get_element(loc,inner_text=inner_text)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 207, in get_element\n    r = self.get_elements(\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 328, in get_elements\n    return filter_elements()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\utils\\utils.py\", line 34, in wrapper\n    r = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 314, in filter_elements\n    elements = self._get_elements_by_css(selector, max_timeout, index=-1)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 470, in _get_elements_by_css\n    els = search_elements(_selector_list)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\utils\\utils.py\", line 34, in wrapper\n    r = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 463, in search_elements\n    return self.__search_child(\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 429, in __search_child\n    els = self.__get_elements(_selector)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 409, in __get_elements\n    ret = self._send(\"Page.getElements\", {\"selector\": selector})\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 405, in _send\n    return self.connection.send(method, params) if sync else self.connection.send_async(method, params)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 185, in send\n    return self._receive_response(cmd)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 206, in _receive_response\n    raise MiniAppError(err_msg)\nminium.framework.exception.MiniAppError: page destroyed\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 29, in testPartExecutor\n    yield\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 110, in run\n    self._callTestMethod(testMethod)\n  File \"e:\\software\\python\\lib\\unittest\\case.py\", line 549, in _callTestMethod\n    method()\n  File \"E:\\PycharmProjects\\hj_xcx\\case\\test_order.py\", line 51, in test_02_pre_arrive\n    MyPage(self.page).click_order()\n  File \"E:\\PycharmProjects\\hj_xcx\\page\\my_page.py\", line 42, in click_order\n    self.click(self.order_loc,inner_text=\"\u9884\u7ea6\u68c0\u6d4b\")\n  File \"E:\\PycharmProjects\\hj_xcx\\base\\basepage.py\", line 65, in click\n    self.locator_appoint_ele(loc, index).click()\n  File \"E:\\PycharmProjects\\hj_xcx\\base\\basepage.py\", line 49, in locator_appoint_ele\n    ele=self.page.get_elements(loc)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 300, in get_elements\n    return self._get_elements_by_css(selector, max_timeout, index=index)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 470, in _get_elements_by_css\n    els = search_elements(_selector_list)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\utils\\utils.py\", line 34, in wrapper\n    r = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 463, in search_elements\n    return self.__search_child(\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 429, in __search_child\n    els = self.__get_elements(_selector)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 409, in __get_elements\n    ret = self._send(\"Page.getElements\", {\"selector\": selector})\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 405, in _send\n    return self.connection.send(method, params) if sync else self.connection.send_async(method, params)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 185, in send\n    return self._receive_response(cmd)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 206, in _receive_response\n    raise MiniAppError(err_msg)\nminium.framework.exception.MiniAppError: page destroyed\n",
+    "start_timestamp": 1658919032.6640675,
+    "is_failure": false,
+    "is_error": true,
+    "module": "E:.PycharmProjects.hj_xcx.case.test_order",
+    "package": "case",
+    "failed_line_num": 51,
+    "device": {
+        "system_info": {
+            "model": "iPhone XS Max",
+            "pixelRatio": 3,
+            "windowWidth": 414,
+            "windowHeight": 896,
+            "system": "iOS 10.0.1",
+            "language": "zh_CN",
+            "version": "8.0.5",
+            "deviceOrientation": "portrait",
+            "screenWidth": 414,
+            "screenHeight": 896,
+            "SDKVersion": "2.22.0",
+            "brand": "devtools",
+            "fontSizeSetting": 16,
+            "benchmarkLevel": 1,
+            "batteryLevel": 100,
+            "statusBarHeight": 44,
+            "bluetoothEnabled": true,
+            "locationEnabled": true,
+            "wifiEnabled": true,
+            "cameraAuthorized": true,
+            "locationAuthorized": true,
+            "microphoneAuthorized": true,
+            "notificationAuthorized": true,
+            "safeArea": {
+                "top": 44,
+                "left": 0,
+                "right": 414,
+                "bottom": 862,
+                "width": 414,
+                "height": 818
+            },
+            "platform": "devtools",
+            "enableDebug": false,
+            "devicePixelRatio": 3
+        }
+    },
+    "log_filename": "run.log",
+    "error_type": "MiniAppError",
+    "error_value": "page destroyed",
+    "error_stages": [
+        "testMethod"
+    ],
+    "screen_info": [
+        {
+            "name": "setup",
+            "url": "/pages/home/index",
+            "path": "images\\setup.png",
+            "ts": 1658919061,
+            "datetime": "2022-07-27 18:51:01"
+        },
+        {
+            "name": "teardown",
+            "url": "/pages/submitAppointment/index",
+            "path": "images\\teardown.png",
+            "ts": 1658919083,
+            "datetime": "2022-07-27 18:51:23"
+        }
+    ],
+    "check_list": [],
+    "assert_list": [],
+    "perf_data": "{\"startup\": 0, \"avg_cpu\": 0, \"max_cpu\": 0, \"cpu_data_list\": [], \"avg_mem\": 0, \"max_mem\": 0, \"mem_data_list\": [], \"avg_fps\": 0, \"min_fps_rt\": 0, \"fps_data_list\": [], \"fps_time_series_list\": [], \"cpu_time_series_list\": [], \"mem_time_series_list\": []}",
+    "weapp_log_path": "weapp.log",
+    "request_log_path": "request.log",
+    "stop_timestamp": 1658919083.3643208,
+    "appId": "wxa15762d564231c76",
+    "appName": "\u676d\u5dde\u6c47\u5065\u667a\u8c31\u533b\u5b66\u68c0\u9a8c",
+    "source": {
+        "code": [
+            "    def test_02_pre_arrive(self):\n",
+            "        \"\"\"\u70b9\u51fb\u5df2\u5230\u573a\"\"\"\n",
+            "        HomePage(self.page).click_my()\n",
+            "        MyPage(self.page).click_order()\n",
+            "        OrderPage(self.page).click_pre_arrive()\n"
+        ],
+        "start": 48
+    },
+    "filename": "result.json"
+}

@@ -1,0 +1,94 @@
+{
+    "case_name": "test_02_pre_arrive",
+    "run_time": "20220727 19:02:54",
+    "test_type": "TestOrder",
+    "case_doc": "\u70b9\u51fb\u5df2\u5230\u573a",
+    "success": false,
+    "failures": "",
+    "errors": "Traceback (most recent call last):\n  File \"E:\\PycharmProjects\\hj_xcx\\base\\basepage.py\", line 63, in click\n    self.locator(loc, inner_text=inner_text).click()\n  File \"E:\\PycharmProjects\\hj_xcx\\base\\basepage.py\", line 45, in locator\n    return self.page.get_element(loc,inner_text=inner_text)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 216, in get_element\n    raise MiniElementNotFoundError(\"element[%s] not found\" % selector)\nminium.framework.exception.MiniElementNotFoundError: element[.van-icon-user-circle-o] not found\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 29, in testPartExecutor\n    yield\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 110, in run\n    self._callTestMethod(testMethod)\n  File \"e:\\software\\python\\lib\\unittest\\case.py\", line 549, in _callTestMethod\n    method()\n  File \"E:\\PycharmProjects\\hj_xcx\\case\\test_order.py\", line 50, in test_02_pre_arrive\n    HomePage(self.page).click_my()\n  File \"E:\\PycharmProjects\\hj_xcx\\page\\home_page.py\", line 51, in click_my\n    self.click(self.my_loc)\n  File \"E:\\PycharmProjects\\hj_xcx\\base\\basepage.py\", line 65, in click\n    self.locator_appoint_ele(loc, index).click()\n  File \"E:\\PycharmProjects\\hj_xcx\\base\\basepage.py\", line 50, in locator_appoint_ele\n    return ele[n]\nTypeError: list indices must be integers or slices, not NoneType\n",
+    "start_timestamp": 1658919774.2594094,
+    "is_failure": false,
+    "is_error": true,
+    "module": "E:.PycharmProjects.hj_xcx.case.test_order",
+    "package": "case",
+    "failed_line_num": 50,
+    "device": {
+        "system_info": {
+            "model": "iPhone XS Max",
+            "pixelRatio": 3,
+            "windowWidth": 414,
+            "windowHeight": 896,
+            "system": "iOS 10.0.1",
+            "language": "zh_CN",
+            "version": "8.0.5",
+            "deviceOrientation": "portrait",
+            "screenWidth": 414,
+            "screenHeight": 896,
+            "SDKVersion": "2.22.0",
+            "brand": "devtools",
+            "fontSizeSetting": 16,
+            "benchmarkLevel": 1,
+            "batteryLevel": 100,
+            "statusBarHeight": 44,
+            "bluetoothEnabled": true,
+            "locationEnabled": true,
+            "wifiEnabled": true,
+            "cameraAuthorized": true,
+            "locationAuthorized": true,
+            "microphoneAuthorized": true,
+            "notificationAuthorized": true,
+            "safeArea": {
+                "top": 44,
+                "left": 0,
+                "right": 414,
+                "bottom": 862,
+                "width": 414,
+                "height": 818
+            },
+            "platform": "devtools",
+            "enableDebug": false,
+            "devicePixelRatio": 3
+        }
+    },
+    "log_filename": "run.log",
+    "error_type": "TypeError",
+    "error_value": "list indices must be integers or slices, not NoneType",
+    "error_stages": [
+        "testMethod"
+    ],
+    "screen_info": [
+        {
+            "name": "setup",
+            "url": "/pages/home/index",
+            "path": "images\\setup.png",
+            "ts": 1658919801,
+            "datetime": "2022-07-27 19:03:21"
+        },
+        {
+            "name": "teardown",
+            "url": "/pages/offlineSamplingManagement/index",
+            "path": "images\\teardown.png",
+            "ts": 1658919828,
+            "datetime": "2022-07-27 19:03:48"
+        }
+    ],
+    "check_list": [],
+    "assert_list": [],
+    "perf_data": "{\"startup\": 0, \"avg_cpu\": 0, \"max_cpu\": 0, \"cpu_data_list\": [], \"avg_mem\": 0, \"max_mem\": 0, \"mem_data_list\": [], \"avg_fps\": 0, \"min_fps_rt\": 0, \"fps_data_list\": [], \"fps_time_series_list\": [], \"cpu_time_series_list\": [], \"mem_time_series_list\": []}",
+    "weapp_log_path": "weapp.log",
+    "request_log_path": "request.log",
+    "stop_timestamp": 1658919828.641376,
+    "appId": "wxa15762d564231c76",
+    "appName": "\u676d\u5dde\u6c47\u5065\u667a\u8c31\u533b\u5b66\u68c0\u9a8c",
+    "source": {
+        "code": [
+            "    def test_02_pre_arrive(self):\n",
+            "        \"\"\"\u70b9\u51fb\u5df2\u5230\u573a\"\"\"\n",
+            "        HomePage(self.page).click_my()\n",
+            "        MyPage(self.page).click_order()\n",
+            "        OrderPage(self.page).click_pre_arrive()\n"
+        ],
+        "start": 48
+    },
+    "filename": "result.json"
+}

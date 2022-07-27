@@ -1,0 +1,117 @@
+INFO  2022-07-27 18:50:32,664 minitest.py _miniSetUp      241 =========Current case: test_02_pre_arrive=========
+INFO  2022-07-27 18:50:32,665 minitest.py _miniSetUp      242 package info: E:.PycharmProjects.hj_xcx.case.test_order, case info: TestOrder.test_02_pre_arrive
+INFO  2022-07-27 18:50:32,665 basenative.py wrapper         22  call BaseNative.back_to_miniprogram
+INFO  2022-07-27 18:50:32,666 basenative.py back_to_miniprogram 476 try back_to_miniprogram 3
+INFO  2022-07-27 18:50:32,666 basenative.py wrapper         26  call BaseNative.back_to_miniprogram end
+INFO  2022-07-27 18:50:32,667 app.py     relaunch        297 ReLaunch: /pages/loadPage/index
+WARNI 2022-07-27 18:50:37,707 app.py     relaunch        300 ReLaunch(/pages/loadPage/index) but(/pages/product/index)
+INFO  2022-07-27 18:50:37,714 minitest.py capture         523 capture setup.png
+INFO  2022-07-27 18:50:37,718 basenative.py wrapper         22  call IdeNative.screen_shot
+INFO  2022-07-27 18:51:01,343 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 14, 'path': 'pages/home/index', 'query': {}, 'openType': 'reLaunch'}, 1658919061311]}
+INFO  2022-07-27 18:51:01,396 basenative.py wrapper         26  call IdeNative.screen_shot end
+INFO  2022-07-27 18:51:06,429 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 18:51:07,441 page.py    _get_elements_by_css 474 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001F476EE38B0>]
+INFO  2022-07-27 18:51:07,442 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 18:51:08,450 page.py    _get_elements_by_css 474 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001F476EE3700>]
+INFO  2022-07-27 18:51:08,452 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 18:51:09,547 page.py    _get_elements_by_css 474 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001F476EE37F0>]
+INFO  2022-07-27 18:51:09,957 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 15, 'path': 'pages/personal/index', 'query': {}, 'openType': 'reLaunch'}, 1658919069934]}
+INFO  2022-07-27 18:51:10,603 page.py    _get_elements_by_css 467 try to get elements: .gridText
+INFO  2022-07-27 18:51:11,616 page.py    _get_elements_by_css 474 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001F476EE17B0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F476EE1450>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F476EE2080>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F476EE1990>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F476EE07C0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F476EE0700>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F476EE1E40>, <minium.miniprogram.base_driver.element.BaseElement object at 0x000001F476EE36A0>]
+INFO  2022-07-27 18:51:11,619 page.py    _get_elements_by_css 467 try to get elements: .gridText
+INFO  2022-07-27 18:51:11,774 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 16, 'path': 'pages/personal/index', 'query': {}, 'openType': 'reLaunch'}, 1658919071737]}
+INFO  2022-07-27 18:51:12,476 page.py    _get_elements_by_css 467 try to get elements: .gridText
+INFO  2022-07-27 18:51:13,146 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 17, 'path': 'pages/makeAnAppointment/index', 'query': {}, 'openType': 'navigateTo'}, 1658919073121]}
+INFO  2022-07-27 18:51:13,267 page.py    _get_elements_by_css 467 try to get elements: .gridText
+INFO  2022-07-27 18:51:14,081 page.py    _get_elements_by_css 467 try to get elements: .gridText
+INFO  2022-07-27 18:51:14,877 page.py    _get_elements_by_css 467 try to get elements: .gridText
+INFO  2022-07-27 18:51:15,686 page.py    _get_elements_by_css 467 try to get elements: .gridText
+INFO  2022-07-27 18:51:15,983 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 18, 'path': 'pages/submitAppointment/index', 'query': {}, 'openType': 'navigateTo'}, 1658919075957]}
+INFO  2022-07-27 18:51:16,528 page.py    _get_elements_by_css 467 try to get elements: .gridText
+INFO  2022-07-27 18:51:17,342 page.py    _get_elements_by_css 467 try to get elements: .gridText
+INFO  2022-07-27 18:51:18,161 page.py    _get_elements_by_css 467 try to get elements: .gridText
+INFO  2022-07-27 18:51:18,972 page.py    _get_elements_by_css 467 try to get elements: .gridText
+INFO  2022-07-27 18:51:19,787 page.py    _get_elements_by_css 467 try to get elements: .gridText
+INFO  2022-07-27 18:51:20,596 page.py    _get_elements_by_css 467 try to get elements: .gridText
+INFO  2022-07-27 18:51:21,392 page.py    _get_elements_by_css 467 try to get elements: .gridText
+INFO  2022-07-27 18:51:22,198 page.py    _get_elements_by_css 467 try to get elements: .gridText
+INFO  2022-07-27 18:51:22,747 page.py    _get_elements_by_css 467 try to get elements: .gridText
+INFO  2022-07-27 18:51:23,291 basenative.py wrapper         22  call BaseNative.get_start_up
+INFO  2022-07-27 18:51:23,292 basenative.py wrapper         26  call BaseNative.get_start_up end
+INFO  2022-07-27 18:51:23,294 minitest.py capture         523 capture teardown.png
+INFO  2022-07-27 18:51:23,295 basenative.py wrapper         22  call IdeNative.screen_shot
+INFO  2022-07-27 18:51:23,347 basenative.py wrapper         26  call IdeNative.screen_shot end
+ERROR 2022-07-27 18:51:23,365 assertbase.py _teardown_collect 271 <bound method TestOrder.test_02_pre_arrive of <case.test_order.TestOrder testMethod=test_02_pre_arrive>>
+Traceback (most recent call last):
+  File "E:\PycharmProjects\hj_xcx\base\basepage.py", line 63, in click
+    self.locator(loc, inner_text=inner_text).click()
+  File "E:\PycharmProjects\hj_xcx\base\basepage.py", line 45, in locator
+    return self.page.get_element(loc,inner_text=inner_text)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 135, in wrapper
+    result = func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 207, in get_element
+    r = self.get_elements(
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 135, in wrapper
+    result = func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 328, in get_elements
+    return filter_elements()
+  File "e:\software\python\lib\site-packages\minium\utils\utils.py", line 34, in wrapper
+    r = func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 314, in filter_elements
+    elements = self._get_elements_by_css(selector, max_timeout, index=-1)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 470, in _get_elements_by_css
+    els = search_elements(_selector_list)
+  File "e:\software\python\lib\site-packages\minium\utils\utils.py", line 34, in wrapper
+    r = func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 463, in search_elements
+    return self.__search_child(
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 429, in __search_child
+    els = self.__get_elements(_selector)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 409, in __get_elements
+    ret = self._send("Page.getElements", {"selector": selector})
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 405, in _send
+    return self.connection.send(method, params) if sync else self.connection.send_async(method, params)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 185, in send
+    return self._receive_response(cmd)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 206, in _receive_response
+    raise MiniAppError(err_msg)
+minium.framework.exception.MiniAppError: page destroyed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "e:\software\python\lib\site-packages\minium\framework\libs\unittest\case.py", line 29, in testPartExecutor
+    yield
+  File "e:\software\python\lib\site-packages\minium\framework\libs\unittest\case.py", line 110, in run
+    self._callTestMethod(testMethod)
+  File "e:\software\python\lib\unittest\case.py", line 549, in _callTestMethod
+    method()
+  File "E:\PycharmProjects\hj_xcx\case\test_order.py", line 51, in test_02_pre_arrive
+    MyPage(self.page).click_order()
+  File "E:\PycharmProjects\hj_xcx\page\my_page.py", line 42, in click_order
+    self.click(self.order_loc,inner_text="预约检测")
+  File "E:\PycharmProjects\hj_xcx\base\basepage.py", line 65, in click
+    self.locator_appoint_ele(loc, index).click()
+  File "E:\PycharmProjects\hj_xcx\base\basepage.py", line 49, in locator_appoint_ele
+    ele=self.page.get_elements(loc)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 135, in wrapper
+    result = func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 300, in get_elements
+    return self._get_elements_by_css(selector, max_timeout, index=index)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 470, in _get_elements_by_css
+    els = search_elements(_selector_list)
+  File "e:\software\python\lib\site-packages\minium\utils\utils.py", line 34, in wrapper
+    r = func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 463, in search_elements
+    return self.__search_child(
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 429, in __search_child
+    els = self.__get_elements(_selector)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 409, in __get_elements
+    ret = self._send("Page.getElements", {"selector": selector})
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 405, in _send
+    return self.connection.send(method, params) if sync else self.connection.send_async(method, params)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 185, in send
+    return self._receive_response(cmd)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 206, in _receive_response
+    raise MiniAppError(err_msg)
+minium.framework.exception.MiniAppError: page destroyed

@@ -1,0 +1,82 @@
+{
+    "case_name": "test_03_pre_cancel",
+    "run_time": "20220727 18:45:26",
+    "test_type": "TestOrder",
+    "case_doc": "\u70b9\u51fb\u5df2\u53d6\u6d88",
+    "success": true,
+    "failures": "",
+    "errors": "",
+    "start_timestamp": 1658918726.2615564,
+    "is_failure": false,
+    "is_error": false,
+    "module": "E:.PycharmProjects.hj_xcx.case.test_order",
+    "package": "case",
+    "failed_line_num": -1,
+    "device": {
+        "system_info": {
+            "model": "iPhone XS Max",
+            "pixelRatio": 3,
+            "windowWidth": 414,
+            "windowHeight": 896,
+            "system": "iOS 10.0.1",
+            "language": "zh_CN",
+            "version": "8.0.5",
+            "deviceOrientation": "portrait",
+            "screenWidth": 414,
+            "screenHeight": 896,
+            "SDKVersion": "2.22.0",
+            "brand": "devtools",
+            "fontSizeSetting": 16,
+            "benchmarkLevel": 1,
+            "batteryLevel": 100,
+            "statusBarHeight": 44,
+            "bluetoothEnabled": true,
+            "locationEnabled": true,
+            "wifiEnabled": true,
+            "cameraAuthorized": true,
+            "locationAuthorized": true,
+            "microphoneAuthorized": true,
+            "notificationAuthorized": true,
+            "safeArea": {
+                "top": 44,
+                "left": 0,
+                "right": 414,
+                "bottom": 862,
+                "width": 414,
+                "height": 818
+            },
+            "platform": "devtools",
+            "enableDebug": false,
+            "devicePixelRatio": 3
+        }
+    },
+    "log_filename": "run.log",
+    "error_type": "",
+    "error_value": "",
+    "error_stages": [],
+    "screen_info": [
+        {
+            "name": "setup",
+            "url": "/pages/home/index",
+            "path": "images\\setup.png",
+            "ts": 1658918780,
+            "datetime": "2022-07-27 18:46:20"
+        }
+    ],
+    "check_list": [],
+    "assert_list": [],
+    "stop_timestamp": 1658918783.0896432,
+    "appId": "wxa15762d564231c76",
+    "appName": "\u676d\u5dde\u6c47\u5065\u667a\u8c31\u533b\u5b66\u68c0\u9a8c",
+    "source": {
+        "code": [
+            "    def test_03_pre_cancel(self):\n",
+            "        \"\"\"\u70b9\u51fb\u5df2\u53d6\u6d88\"\"\"\n",
+            "        HomePage(self.page).click_my()\n",
+            "        MyPage(self.page).click_order()\n",
+            "        OrderPage(self.page).click_pre_cancel()\n"
+        ],
+        "start": 54
+    },
+    "filename": "result.json"
+}

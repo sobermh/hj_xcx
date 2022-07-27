@@ -1,0 +1,92 @@
+{
+    "case_name": "test_02_pre_arrive",
+    "run_time": "20220727 16:13:51",
+    "test_type": "TestOrder",
+    "case_doc": "\u70b9\u51fb\u5df2\u5230\u573a",
+    "success": true,
+    "failures": "",
+    "errors": "",
+    "start_timestamp": 1658909631.5062363,
+    "is_failure": false,
+    "is_error": false,
+    "module": "E:.PycharmProjects.hj_xcx.case.test_order",
+    "package": "case",
+    "failed_line_num": -1,
+    "device": {
+        "system_info": {
+            "model": "iPhone XS Max",
+            "pixelRatio": 3,
+            "windowWidth": 414,
+            "windowHeight": 896,
+            "system": "iOS 10.0.1",
+            "language": "zh_CN",
+            "version": "8.0.5",
+            "deviceOrientation": "portrait",
+            "screenWidth": 414,
+            "screenHeight": 896,
+            "SDKVersion": "2.22.0",
+            "brand": "devtools",
+            "fontSizeSetting": 16,
+            "benchmarkLevel": 1,
+            "batteryLevel": 100,
+            "statusBarHeight": 44,
+            "bluetoothEnabled": true,
+            "locationEnabled": true,
+            "wifiEnabled": true,
+            "cameraAuthorized": true,
+            "locationAuthorized": true,
+            "microphoneAuthorized": true,
+            "notificationAuthorized": true,
+            "safeArea": {
+                "top": 44,
+                "left": 0,
+                "right": 414,
+                "bottom": 862,
+                "width": 414,
+                "height": 818
+            },
+            "platform": "devtools",
+            "enableDebug": false,
+            "devicePixelRatio": 3
+        }
+    },
+    "log_filename": "run.log",
+    "error_type": "",
+    "error_value": "",
+    "error_stages": [],
+    "screen_info": [
+        {
+            "name": "setup",
+            "url": "/pages/loadPage/index",
+            "path": "images\\setup.png",
+            "ts": 1658909631,
+            "datetime": "2022-07-27 16:13:51"
+        },
+        {
+            "name": "teardown",
+            "url": "/pages/personal/index",
+            "path": "images\\teardown.png",
+            "ts": 1658909679,
+            "datetime": "2022-07-27 16:14:39"
+        }
+    ],
+    "check_list": [],
+    "assert_list": [],
+    "perf_data": "{\"startup\": 0, \"avg_cpu\": 0, \"max_cpu\": 0, \"cpu_data_list\": [], \"avg_mem\": 0, \"max_mem\": 0, \"mem_data_list\": [], \"avg_fps\": 0, \"min_fps_rt\": 0, \"fps_data_list\": [], \"fps_time_series_list\": [], \"cpu_time_series_list\": [], \"mem_time_series_list\": []}",
+    "weapp_log_path": "weapp.log",
+    "request_log_path": "request.log",
+    "stop_timestamp": 1658909679.5968525,
+    "appId": "wxa15762d564231c76",
+    "appName": "\u676d\u5dde\u6c47\u5065\u667a\u8c31\u533b\u5b66\u68c0\u9a8c",
+    "source": {
+        "code": [
+            "    def test_02_pre_arrive(self):\n",
+            "        \"\"\"\u70b9\u51fb\u5df2\u5230\u573a\"\"\"\n",
+            "        HomePage(self.page).click_my()\n",
+            "        MyPage(self.page).click_order()\n",
+            "        OrderPage(self.page).click_pre_arrive()\n"
+        ],
+        "start": 48
+    },
+    "filename": "result.json"
+}

@@ -1,0 +1,91 @@
+INFO  2022-07-27 18:51:23,370 minitest.py _miniSetUp      241 =========Current case: test_03_pre_cancel=========
+INFO  2022-07-27 18:51:23,371 minitest.py _miniSetUp      242 package info: E:.PycharmProjects.hj_xcx.case.test_order, case info: TestOrder.test_03_pre_cancel
+INFO  2022-07-27 18:51:23,371 basenative.py wrapper         22  call BaseNative.back_to_miniprogram
+INFO  2022-07-27 18:51:23,372 basenative.py back_to_miniprogram 476 try back_to_miniprogram 3
+INFO  2022-07-27 18:51:23,372 basenative.py wrapper         26  call BaseNative.back_to_miniprogram end
+INFO  2022-07-27 18:51:23,373 app.py     relaunch        297 ReLaunch: /pages/loadPage/index
+INFO  2022-07-27 18:51:23,674 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 19, 'path': 'pages/loadPage/index', 'query': {}, 'openType': 'reLaunch'}, 1658919083648]}
+INFO  2022-07-27 18:51:23,676 minitest.py capture         523 capture setup.png
+INFO  2022-07-27 18:51:23,678 basenative.py wrapper         22  call IdeNative.screen_shot
+INFO  2022-07-27 18:51:23,745 basenative.py wrapper         26  call IdeNative.screen_shot end
+INFO  2022-07-27 18:51:24,306 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 20, 'path': 'pages/home/index', 'query': {}, 'openType': 'reLaunch'}, 1658919084282]}
+INFO  2022-07-27 18:51:28,217 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 21, 'path': 'pages/personal/index', 'query': {}, 'openType': 'reLaunch'}, 1658919088186]}
+INFO  2022-07-27 18:51:28,772 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 18:51:29,121 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 22, 'path': 'pages/makeAnAppointment/index', 'query': {}, 'openType': 'navigateTo'}, 1658919089087]}
+INFO  2022-07-27 18:51:29,877 page.py    _get_elements_by_css 474 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001F476EE1AE0>]
+INFO  2022-07-27 18:51:29,878 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 18:51:30,889 page.py    _get_elements_by_css 474 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001F476EE1E10>]
+INFO  2022-07-27 18:51:30,892 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 18:51:31,334 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 23, 'path': 'pages/submitAppointment/index', 'query': {}, 'openType': 'navigateTo'}, 1658919091307]}
+INFO  2022-07-27 18:51:32,014 page.py    _get_elements_by_css 474 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001F476EE0A30>]
+INFO  2022-07-27 18:51:33,050 page.py    _get_elements_by_css 467 try to get elements: .gridText
+WARNI 2022-07-27 18:51:34,085 page.py    _get_elements_by_css 472 Could not found any element '.gridText' you need
+INFO  2022-07-27 18:51:34,349 page.py    _get_elements_by_css 467 try to get elements: .gridText
+WARNI 2022-07-27 18:51:35,364 page.py    _get_elements_by_css 472 Could not found any element '.gridText' you need
+INFO  2022-07-27 18:51:35,629 page.py    _get_elements_by_css 467 try to get elements: .gridText
+WARNI 2022-07-27 18:51:36,651 page.py    _get_elements_by_css 472 Could not found any element '.gridText' you need
+INFO  2022-07-27 18:51:36,918 page.py    _get_elements_by_css 467 try to get elements: .gridText
+WARNI 2022-07-27 18:51:37,929 page.py    _get_elements_by_css 472 Could not found any element '.gridText' you need
+INFO  2022-07-27 18:51:38,183 page.py    _get_elements_by_css 467 try to get elements: .gridText
+WARNI 2022-07-27 18:51:39,195 page.py    _get_elements_by_css 472 Could not found any element '.gridText' you need
+INFO  2022-07-27 18:51:39,460 page.py    _get_elements_by_css 467 try to get elements: .gridText
+WARNI 2022-07-27 18:51:40,474 page.py    _get_elements_by_css 472 Could not found any element '.gridText' you need
+INFO  2022-07-27 18:51:40,739 page.py    _get_elements_by_css 467 try to get elements: .gridText
+WARNI 2022-07-27 18:51:41,751 page.py    _get_elements_by_css 472 Could not found any element '.gridText' you need
+INFO  2022-07-27 18:51:42,016 page.py    _get_elements_by_css 467 try to get elements: .gridText
+WARNI 2022-07-27 18:51:43,031 page.py    _get_elements_by_css 472 Could not found any element '.gridText' you need
+INFO  2022-07-27 18:51:43,295 page.py    _get_elements_by_css 467 try to get elements: .gridText
+WARNI 2022-07-27 18:51:44,312 page.py    _get_elements_by_css 472 Could not found any element '.gridText' you need
+INFO  2022-07-27 18:51:44,578 page.py    _get_elements_by_css 467 try to get elements: .gridText
+WARNI 2022-07-27 18:51:45,597 page.py    _get_elements_by_css 472 Could not found any element '.gridText' you need
+INFO  2022-07-27 18:51:45,861 page.py    _get_elements_by_css 467 try to get elements: .gridText
+WARNI 2022-07-27 18:51:46,872 page.py    _get_elements_by_css 472 Could not found any element '.gridText' you need
+INFO  2022-07-27 18:51:47,137 page.py    _get_elements_by_css 467 try to get elements: .gridText
+WARNI 2022-07-27 18:51:48,153 page.py    _get_elements_by_css 472 Could not found any element '.gridText' you need
+INFO  2022-07-27 18:51:48,421 page.py    _get_elements_by_css 467 try to get elements: .gridText
+WARNI 2022-07-27 18:51:49,440 page.py    _get_elements_by_css 472 Could not found any element '.gridText' you need
+INFO  2022-07-27 18:51:49,703 page.py    _get_elements_by_css 467 try to get elements: .gridText
+WARNI 2022-07-27 18:51:50,719 page.py    _get_elements_by_css 472 Could not found any element '.gridText' you need
+INFO  2022-07-27 18:51:50,969 page.py    _get_elements_by_css 467 try to get elements: .gridText
+WARNI 2022-07-27 18:51:51,983 page.py    _get_elements_by_css 472 Could not found any element '.gridText' you need
+INFO  2022-07-27 18:51:52,247 page.py    _get_elements_by_css 467 try to get elements: .gridText
+WARNI 2022-07-27 18:51:53,260 page.py    _get_elements_by_css 472 Could not found any element '.gridText' you need
+INFO  2022-07-27 18:51:53,525 page.py    _get_elements_by_css 467 try to get elements: .gridText
+WARNI 2022-07-27 18:51:54,549 page.py    _get_elements_by_css 472 Could not found any element '.gridText' you need
+INFO  2022-07-27 18:51:55,552 page.py    _get_elements_by_css 467 try to get elements: .gridText
+WARNI 2022-07-27 18:51:56,570 page.py    _get_elements_by_css 472 Could not found any element '.gridText' you need
+INFO  2022-07-27 18:51:56,572 basenative.py wrapper         22  call BaseNative.get_start_up
+INFO  2022-07-27 18:51:56,575 basenative.py wrapper         26  call BaseNative.get_start_up end
+INFO  2022-07-27 18:51:56,578 minitest.py capture         523 capture teardown.png
+INFO  2022-07-27 18:51:56,580 basenative.py wrapper         22  call IdeNative.screen_shot
+INFO  2022-07-27 18:51:56,637 basenative.py wrapper         26  call IdeNative.screen_shot end
+ERROR 2022-07-27 18:51:56,639 assertbase.py _teardown_collect 271 <bound method TestOrder.test_03_pre_cancel of <case.test_order.TestOrder testMethod=test_03_pre_cancel>>
+Traceback (most recent call last):
+  File "E:\PycharmProjects\hj_xcx\base\basepage.py", line 63, in click
+    self.locator(loc, inner_text=inner_text).click()
+  File "E:\PycharmProjects\hj_xcx\base\basepage.py", line 45, in locator
+    return self.page.get_element(loc,inner_text=inner_text)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 135, in wrapper
+    result = func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 216, in get_element
+    raise MiniElementNotFoundError("element[%s] not found" % selector)
+minium.framework.exception.MiniElementNotFoundError: element[.gridText] not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "e:\software\python\lib\site-packages\minium\framework\libs\unittest\case.py", line 29, in testPartExecutor
+    yield
+  File "e:\software\python\lib\site-packages\minium\framework\libs\unittest\case.py", line 110, in run
+    self._callTestMethod(testMethod)
+  File "e:\software\python\lib\unittest\case.py", line 549, in _callTestMethod
+    method()
+  File "E:\PycharmProjects\hj_xcx\case\test_order.py", line 57, in test_03_pre_cancel
+    MyPage(self.page).click_order()
+  File "E:\PycharmProjects\hj_xcx\page\my_page.py", line 42, in click_order
+    self.click(self.order_loc,inner_text="预约检测")
+  File "E:\PycharmProjects\hj_xcx\base\basepage.py", line 65, in click
+    self.locator_appoint_ele(loc, index).click()
+  File "E:\PycharmProjects\hj_xcx\base\basepage.py", line 50, in locator_appoint_ele
+    return ele[n]
+TypeError: list indices must be integers or slices, not NoneType

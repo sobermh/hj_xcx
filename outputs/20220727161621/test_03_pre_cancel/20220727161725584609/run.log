@@ -1,0 +1,127 @@
+INFO  2022-07-27 16:17:25,585 minitest.py _miniSetUp      241 =========Current case: test_03_pre_cancel=========
+INFO  2022-07-27 16:17:25,585 minitest.py _miniSetUp      242 package info: E:.PycharmProjects.hj_xcx.case.test_order, case info: TestOrder.test_03_pre_cancel
+INFO  2022-07-27 16:17:25,586 basenative.py wrapper         22  call BaseNative.back_to_miniprogram
+INFO  2022-07-27 16:17:25,586 basenative.py back_to_miniprogram 476 try back_to_miniprogram 3
+INFO  2022-07-27 16:17:25,586 basenative.py wrapper         26  call BaseNative.back_to_miniprogram end
+INFO  2022-07-27 16:17:25,587 app.py     relaunch        297 ReLaunch: /pages/loadPage/index
+INFO  2022-07-27 16:17:25,870 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 16, 'path': 'pages/loadPage/index', 'query': {}, 'openType': 'reLaunch'}, 1658909845847]}
+INFO  2022-07-27 16:17:25,872 minitest.py capture         523 capture setup.png
+INFO  2022-07-27 16:17:25,873 basenative.py wrapper         22  call IdeNative.screen_shot
+INFO  2022-07-27 16:17:25,936 basenative.py wrapper         26  call IdeNative.screen_shot end
+INFO  2022-07-27 16:17:26,523 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 17, 'path': 'pages/home/index', 'query': {}, 'openType': 'reLaunch'}, 1658909846499]}
+INFO  2022-07-27 16:17:31,029 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+ERROR 2022-07-27 16:17:31,879 connection.py _on_error       265 [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+INFO  2022-07-27 16:17:31,880 connection.py _ws_run_forever 151 websocket run forever shutdown
+INFO  2022-07-27 16:17:32,167 page.py    _get_elements_by_css 474 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x00000128689FE200>]
+INFO  2022-07-27 16:17:32,169 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:32,434 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:32,686 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:32,936 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:33,201 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:33,463 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:33,730 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:33,983 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:34,236 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:34,487 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:34,754 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:35,020 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:35,285 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:35,552 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:35,805 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:36,059 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:36,311 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:36,563 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:36,815 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:37,079 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:37,334 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:37,584 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:37,849 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:38,103 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:38,355 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:38,608 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:38,875 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:39,127 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:39,394 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:39,647 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:39,897 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:40,165 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:40,420 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:40,674 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:40,939 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:41,189 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:41,455 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:41,717 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:41,969 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:42,235 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 16:17:42,239 basenative.py wrapper         22  call BaseNative.get_start_up
+INFO  2022-07-27 16:17:42,239 basenative.py wrapper         26  call BaseNative.get_start_up end
+INFO  2022-07-27 16:17:42,240 minitest.py capture         523 capture teardown.png
+INFO  2022-07-27 16:17:42,241 basenative.py wrapper         22  call IdeNative.screen_shot
+INFO  2022-07-27 16:17:42,241 minitest.py capture         523 capture teardown.png
+INFO  2022-07-27 16:17:42,242 basenative.py wrapper         22  call IdeNative.screen_shot
+ERROR 2022-07-27 16:17:42,242 minitest.py _miniTearDown   482 Connection is already closed.
+Traceback (most recent call last):
+  File "e:\software\python\lib\site-packages\minium\framework\minitest.py", line 476, in _miniTearDown
+    retry(2)(self.capture)("teardown")
+  File "e:\software\python\lib\site-packages\minium\utils\utils.py", line 59, in wrapper
+    return func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\framework\minitest.py", line 524, in capture
+    self.native.screen_shot(path)
+  File "e:\software\python\lib\site-packages\minium\native\wx_native\basenative.py", line 23, in wrapper
+    result = func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\native\wx_native\idenative.py", line 28, in screen_shot
+    self.mini.app.screen_shot(filename, return_format)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 135, in wrapper
+    result = func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\app.py", line 128, in screen_shot
+    b64_data = self.connection.send("App.captureScreenshot").get("result").get("data")
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 184, in send
+    self._send(message)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 154, in _send
+    return self._client.send(message)
+  File "e:\software\python\lib\site-packages\websocket\_app.py", line 204, in send
+    raise WebSocketConnectionClosedException(
+websocket._exceptions.WebSocketConnectionClosedException: Connection is already closed.
+ERROR 2022-07-27 16:17:42,302 assertbase.py _teardown_collect 271 <bound method TestOrder.test_03_pre_cancel of <case.test_order.TestOrder testMethod=test_03_pre_cancel>>
+Traceback (most recent call last):
+  File "e:\software\python\lib\site-packages\minium\framework\libs\unittest\case.py", line 29, in testPartExecutor
+    yield
+  File "e:\software\python\lib\site-packages\minium\framework\libs\unittest\case.py", line 110, in run
+    self._callTestMethod(testMethod)
+  File "e:\software\python\lib\unittest\case.py", line 549, in _callTestMethod
+    method()
+  File "E:\PycharmProjects\hj_xcx\case\test_order.py", line 56, in test_03_pre_cancel
+    HomePage(self.page).click_my()
+  File "E:\PycharmProjects\hj_xcx\page\home_page.py", line 51, in click_my
+    self.click(self.my_loc)
+  File "E:\PycharmProjects\hj_xcx\base\basepage.py", line 60, in click
+    self.locator(loc, inner_text=inner_text).click()
+  File "E:\PycharmProjects\hj_xcx\base\basepage.py", line 45, in locator
+    return self.page.get_element(loc,inner_text=inner_text)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 135, in wrapper
+    result = func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 207, in get_element
+    r = self.get_elements(
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 135, in wrapper
+    result = func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 300, in get_elements
+    return self._get_elements_by_css(selector, max_timeout, index=index)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 470, in _get_elements_by_css
+    els = search_elements(_selector_list)
+  File "e:\software\python\lib\site-packages\minium\utils\utils.py", line 34, in wrapper
+    r = func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 463, in search_elements
+    return self.__search_child(
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 429, in __search_child
+    els = self.__get_elements(_selector)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 409, in __get_elements
+    ret = self._send("Page.getElements", {"selector": selector})
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 405, in _send
+    return self.connection.send(method, params) if sync else self.connection.send_async(method, params)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 184, in send
+    self._send(message)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 154, in _send
+    return self._client.send(message)
+  File "e:\software\python\lib\site-packages\websocket\_app.py", line 204, in send
+    raise WebSocketConnectionClosedException(
+websocket._exceptions.WebSocketConnectionClosedException: Connection is already closed.

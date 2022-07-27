@@ -1,0 +1,84 @@
+INFO  2022-07-27 19:10:11,053 minitest.py _miniSetUp      241 =========Current case: test_03_pre_cancel=========
+INFO  2022-07-27 19:10:11,053 minitest.py _miniSetUp      242 package info: E:.PycharmProjects.hj_xcx.case.test_order, case info: TestOrder.test_03_pre_cancel
+INFO  2022-07-27 19:10:11,054 basenative.py wrapper         22  call BaseNative.back_to_miniprogram
+INFO  2022-07-27 19:10:11,054 basenative.py back_to_miniprogram 476 try back_to_miniprogram 3
+INFO  2022-07-27 19:10:11,055 basenative.py wrapper         26  call BaseNative.back_to_miniprogram end
+INFO  2022-07-27 19:10:11,056 app.py     relaunch        297 ReLaunch: /pages/loadPage/index
+INFO  2022-07-27 19:10:11,533 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 17, 'path': 'pages/loadPage/index', 'query': {}, 'openType': 'reLaunch'}, 1658920211481]}
+INFO  2022-07-27 19:10:11,536 minitest.py capture         523 capture setup.png
+INFO  2022-07-27 19:10:11,538 basenative.py wrapper         22  call IdeNative.screen_shot
+INFO  2022-07-27 19:10:11,581 basenative.py wrapper         26  call IdeNative.screen_shot end
+INFO  2022-07-27 19:10:12,137 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 18, 'path': 'pages/home/index', 'query': {}, 'openType': 'reLaunch'}, 1658920212111]}
+INFO  2022-07-27 19:10:16,598 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 19:10:17,610 page.py    _get_elements_by_css 474 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x0000027CF1C2E7D0>]
+INFO  2022-07-27 19:10:17,612 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 19:10:18,625 page.py    _get_elements_by_css 474 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x0000027CF1C2F4C0>]
+INFO  2022-07-27 19:10:18,625 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 19:10:19,629 page.py    _get_elements_by_css 474 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x0000027CF1C2E6E0>]
+INFO  2022-07-27 19:10:19,827 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 19, 'path': 'pages/personal/index', 'query': {}, 'openType': 'reLaunch'}, 1658920219801]}
+INFO  2022-07-27 19:10:20,180 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 19:10:20,747 basenative.py wrapper         22  call BaseNative.get_start_up
+INFO  2022-07-27 19:10:20,748 basenative.py wrapper         26  call BaseNative.get_start_up end
+INFO  2022-07-27 19:10:20,749 minitest.py capture         523 capture teardown.png
+INFO  2022-07-27 19:10:20,750 basenative.py wrapper         22  call IdeNative.screen_shot
+INFO  2022-07-27 19:10:20,825 basenative.py wrapper         26  call IdeNative.screen_shot end
+ERROR 2022-07-27 19:10:20,853 assertbase.py _teardown_collect 271 <bound method TestOrder.test_03_pre_cancel of <case.test_order.TestOrder testMethod=test_03_pre_cancel>>
+Traceback (most recent call last):
+  File "E:\PycharmProjects\hj_xcx\base\basepage.py", line 63, in click
+    self.locator(loc, inner_text=inner_text).click()
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 135, in wrapper
+    result = func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\element.py", line 228, in click
+    styles = self.styles("pointer-events")
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 135, in wrapper
+    result = func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\element.py", line 196, in styles
+    return self._getter("getStyles", "styles", names)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\element.py", line 535, in _getter
+    result = self._send("Element." + method, {"names": [names]})
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\element.py", line 547, in _send
+    return self.connection.send(method, params)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 185, in send
+    return self._receive_response(cmd)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 206, in _receive_response
+    raise MiniAppError(err_msg)
+minium.framework.exception.MiniAppError: page destroyed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "e:\software\python\lib\site-packages\minium\framework\libs\unittest\case.py", line 29, in testPartExecutor
+    yield
+  File "e:\software\python\lib\site-packages\minium\framework\libs\unittest\case.py", line 110, in run
+    self._callTestMethod(testMethod)
+  File "e:\software\python\lib\unittest\case.py", line 549, in _callTestMethod
+    method()
+  File "E:\PycharmProjects\hj_xcx\case\test_order.py", line 56, in test_03_pre_cancel
+    HomePage(self.page).click_my()
+  File "E:\PycharmProjects\hj_xcx\page\home_page.py", line 51, in click_my
+    self.click(self.my_loc)
+  File "E:\PycharmProjects\hj_xcx\base\basepage.py", line 65, in click
+    self.locator_appoint_ele(loc, index).click()
+  File "E:\PycharmProjects\hj_xcx\base\basepage.py", line 49, in locator_appoint_ele
+    ele=self.page.get_elements(loc)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 135, in wrapper
+    result = func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 300, in get_elements
+    return self._get_elements_by_css(selector, max_timeout, index=index)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 470, in _get_elements_by_css
+    els = search_elements(_selector_list)
+  File "e:\software\python\lib\site-packages\minium\utils\utils.py", line 34, in wrapper
+    r = func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 463, in search_elements
+    return self.__search_child(
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 429, in __search_child
+    els = self.__get_elements(_selector)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 409, in __get_elements
+    ret = self._send("Page.getElements", {"selector": selector})
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 405, in _send
+    return self.connection.send(method, params) if sync else self.connection.send_async(method, params)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 185, in send
+    return self._receive_response(cmd)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 206, in _receive_response
+    raise MiniAppError(err_msg)
+minium.framework.exception.MiniAppError: page destroyed

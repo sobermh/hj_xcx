@@ -1,0 +1,74 @@
+INFO  2022-07-27 16:42:41,168 minitest.py _miniSetUp      241 =========Current case: test_03_pre_cancel=========
+INFO  2022-07-27 16:42:41,170 minitest.py _miniSetUp      242 package info: E:.PycharmProjects.hj_xcx.case.test_order, case info: TestOrder.test_03_pre_cancel
+INFO  2022-07-27 16:42:41,172 basenative.py wrapper         22  call BaseNative.back_to_miniprogram
+INFO  2022-07-27 16:42:41,174 basenative.py back_to_miniprogram 476 try back_to_miniprogram 3
+INFO  2022-07-27 16:42:41,176 basenative.py wrapper         26  call BaseNative.back_to_miniprogram end
+INFO  2022-07-27 16:42:41,178 app.py     relaunch        297 ReLaunch: /pages/loadPage/index
+WARNI 2022-07-27 16:42:46,251 app.py     relaunch        300 ReLaunch(/pages/loadPage/index) but(/pages/makeAnAppointment/index)
+INFO  2022-07-27 16:42:46,252 minitest.py capture         523 capture setup.png
+INFO  2022-07-27 16:42:46,253 basenative.py wrapper         22  call IdeNative.screen_shot
+INFO  2022-07-27 16:43:43,102 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 17, 'path': 'pages/home/index', 'query': {}, 'openType': 'reLaunch'}, 1658911423059]}
+INFO  2022-07-27 16:43:43,160 basenative.py wrapper         26  call IdeNative.screen_shot end
+INFO  2022-07-27 16:43:45,233 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 18, 'path': 'pages/personal/index', 'query': {}, 'openType': 'reLaunch'}, 1658911425207]}
+INFO  2022-07-27 16:43:46,083 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 19, 'path': 'pages/makeAnAppointment/index', 'query': {}, 'openType': 'navigateTo'}, 1658911426058]}
+INFO  2022-07-27 16:43:47,739 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 20, 'path': 'pages/submitAppointment/index', 'query': {}, 'openType': 'navigateTo'}, 1658911427711]}
+INFO  2022-07-27 16:43:48,183 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+WARNI 2022-07-27 16:43:49,194 page.py    _get_elements_by_css 472 Could not found any element '.van-icon-user-circle-o' you need
+INFO  2022-07-27 16:43:49,445 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+WARNI 2022-07-27 16:43:50,458 page.py    _get_elements_by_css 472 Could not found any element '.van-icon-user-circle-o' you need
+INFO  2022-07-27 16:43:50,723 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+WARNI 2022-07-27 16:43:51,737 page.py    _get_elements_by_css 472 Could not found any element '.van-icon-user-circle-o' you need
+INFO  2022-07-27 16:43:51,989 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+WARNI 2022-07-27 16:43:52,996 page.py    _get_elements_by_css 472 Could not found any element '.van-icon-user-circle-o' you need
+INFO  2022-07-27 16:43:53,248 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+WARNI 2022-07-27 16:43:54,251 page.py    _get_elements_by_css 472 Could not found any element '.van-icon-user-circle-o' you need
+INFO  2022-07-27 16:43:54,516 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+WARNI 2022-07-27 16:43:55,532 page.py    _get_elements_by_css 472 Could not found any element '.van-icon-user-circle-o' you need
+INFO  2022-07-27 16:43:55,795 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+WARNI 2022-07-27 16:43:56,809 page.py    _get_elements_by_css 472 Could not found any element '.van-icon-user-circle-o' you need
+INFO  2022-07-27 16:43:57,073 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+WARNI 2022-07-27 16:43:58,087 page.py    _get_elements_by_css 472 Could not found any element '.van-icon-user-circle-o' you need
+INFO  2022-07-27 16:43:58,350 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+WARNI 2022-07-27 16:43:59,364 page.py    _get_elements_by_css 472 Could not found any element '.van-icon-user-circle-o' you need
+INFO  2022-07-27 16:43:59,630 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+WARNI 2022-07-27 16:44:00,646 page.py    _get_elements_by_css 472 Could not found any element '.van-icon-user-circle-o' you need
+INFO  2022-07-27 16:44:00,910 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+WARNI 2022-07-27 16:44:01,930 page.py    _get_elements_by_css 472 Could not found any element '.van-icon-user-circle-o' you need
+INFO  2022-07-27 16:44:02,182 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+WARNI 2022-07-27 16:44:03,187 page.py    _get_elements_by_css 472 Could not found any element '.van-icon-user-circle-o' you need
+INFO  2022-07-27 16:44:03,453 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+WARNI 2022-07-27 16:44:04,482 page.py    _get_elements_by_css 472 Could not found any element '.van-icon-user-circle-o' you need
+INFO  2022-07-27 16:44:04,746 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+WARNI 2022-07-27 16:44:05,763 page.py    _get_elements_by_css 472 Could not found any element '.van-icon-user-circle-o' you need
+INFO  2022-07-27 16:44:06,029 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+WARNI 2022-07-27 16:44:07,048 page.py    _get_elements_by_css 472 Could not found any element '.van-icon-user-circle-o' you need
+INFO  2022-07-27 16:44:07,314 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+WARNI 2022-07-27 16:44:08,324 page.py    _get_elements_by_css 472 Could not found any element '.van-icon-user-circle-o' you need
+INFO  2022-07-27 16:44:08,588 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+WARNI 2022-07-27 16:44:09,603 page.py    _get_elements_by_css 472 Could not found any element '.van-icon-user-circle-o' you need
+INFO  2022-07-27 16:44:09,604 basenative.py wrapper         22  call BaseNative.get_start_up
+INFO  2022-07-27 16:44:09,605 basenative.py wrapper         26  call BaseNative.get_start_up end
+INFO  2022-07-27 16:44:09,607 minitest.py capture         523 capture teardown.png
+INFO  2022-07-27 16:44:09,608 basenative.py wrapper         22  call IdeNative.screen_shot
+INFO  2022-07-27 16:44:09,668 basenative.py wrapper         26  call IdeNative.screen_shot end
+ERROR 2022-07-27 16:44:09,670 assertbase.py _teardown_collect 271 <bound method TestOrder.test_03_pre_cancel of <case.test_order.TestOrder testMethod=test_03_pre_cancel>>
+Traceback (most recent call last):
+  File "e:\software\python\lib\site-packages\minium\framework\libs\unittest\case.py", line 29, in testPartExecutor
+    yield
+  File "e:\software\python\lib\site-packages\minium\framework\libs\unittest\case.py", line 110, in run
+    self._callTestMethod(testMethod)
+  File "e:\software\python\lib\unittest\case.py", line 549, in _callTestMethod
+    method()
+  File "E:\PycharmProjects\hj_xcx\case\test_order.py", line 56, in test_03_pre_cancel
+    HomePage(self.page).click_my()
+  File "E:\PycharmProjects\hj_xcx\page\home_page.py", line 51, in click_my
+    self.click(self.my_loc)
+  File "E:\PycharmProjects\hj_xcx\base\basepage.py", line 62, in click
+    self.locator(loc, inner_text=inner_text).click()
+  File "E:\PycharmProjects\hj_xcx\base\basepage.py", line 45, in locator
+    return self.page.get_element(loc,inner_text=inner_text)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 135, in wrapper
+    result = func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\page.py", line 216, in get_element
+    raise MiniElementNotFoundError("element[%s] not found" % selector)
+minium.framework.exception.MiniElementNotFoundError: element[.van-icon-user-circle-o] not found

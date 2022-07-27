@@ -1,0 +1,13 @@
+INFO  2022-07-27 16:39:06,171 minitest.py _miniSetUp      241 =========Current case: test_03_pre_cancel=========
+INFO  2022-07-27 16:39:06,171 minitest.py _miniSetUp      242 package info: E:.PycharmProjects.hj_xcx.case.test_order, case info: TestOrder.test_03_pre_cancel
+INFO  2022-07-27 16:39:06,172 basenative.py wrapper         22  call BaseNative.back_to_miniprogram
+INFO  2022-07-27 16:39:06,172 basenative.py back_to_miniprogram 476 try back_to_miniprogram 3
+INFO  2022-07-27 16:39:06,173 basenative.py wrapper         26  call BaseNative.back_to_miniprogram end
+INFO  2022-07-27 16:39:06,174 app.py     relaunch        297 ReLaunch: /pages/loadPage/index
+INFO  2022-07-27 16:39:06,554 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 14, 'path': 'pages/loadPage/index', 'query': {}, 'openType': 'reLaunch'}, 1658911146514]}
+INFO  2022-07-27 16:39:06,558 minitest.py capture         523 capture setup.png
+INFO  2022-07-27 16:39:06,561 basenative.py wrapper         22  call IdeNative.screen_shot
+INFO  2022-07-27 16:39:06,654 basenative.py wrapper         26  call IdeNative.screen_shot end
+INFO  2022-07-27 16:39:07,254 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 15, 'path': 'pages/home/index', 'query': {}, 'openType': 'reLaunch'}, 1658911147230]}
+ERROR 2022-07-27 16:39:10,126 connection.py _on_error       265 [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+INFO  2022-07-27 16:39:10,127 connection.py _ws_run_forever 151 websocket run forever shutdown

@@ -1,0 +1,102 @@
+{
+    "case_name": "test_01_add_order",
+    "run_time": "20220727 16:16:34",
+    "test_type": "TestOrder",
+    "case_doc": "colonscr\u6b63\u5e38\u9884\u7ea6",
+    "success": false,
+    "failures": "",
+    "errors": "Traceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 29, in testPartExecutor\n    yield\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 110, in run\n    self._callTestMethod(testMethod)\n  File \"e:\\software\\python\\lib\\unittest\\case.py\", line 549, in _callTestMethod\n    method()\n  File \"E:\\PycharmProjects\\hj_xcx\\case\\test_order.py\", line 42, in test_01_add_order\n    OrderPage(self.page).input_phone()\n  File \"E:\\PycharmProjects\\hj_xcx\\page\\order_page.py\", line 78, in input_phone\n    self.input(self.locator_appoint_ele(self.input_phone_loc,3),19357665827)\n  File \"E:\\PycharmProjects\\hj_xcx\\base\\basepage.py\", line 55, in input\n    self.locator(loc,inner_text=inner_text).trigger(\"input\", {\"value\": value})\n  File \"E:\\PycharmProjects\\hj_xcx\\base\\basepage.py\", line 45, in locator\n    return self.page.get_element(loc,inner_text=inner_text)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 198, in get_element\n    if (selector and selector.startswith(\"/\")) or xpath:\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\element.py\", line 77, in __getattribute__\n    return super(BaseElement, self).__getattribute__(item)\nAttributeError: 'FormElement' object has no attribute 'startswith'\n",
+    "start_timestamp": 1658909794.5151424,
+    "is_failure": false,
+    "is_error": true,
+    "module": "E:.PycharmProjects.hj_xcx.case.test_order",
+    "package": "case",
+    "failed_line_num": 42,
+    "device": {
+        "system_info": {
+            "model": "iPhone XS Max",
+            "pixelRatio": 3,
+            "windowWidth": 414,
+            "windowHeight": 896,
+            "system": "iOS 10.0.1",
+            "language": "zh_CN",
+            "version": "8.0.5",
+            "deviceOrientation": "portrait",
+            "screenWidth": 414,
+            "screenHeight": 896,
+            "SDKVersion": "2.22.0",
+            "brand": "devtools",
+            "fontSizeSetting": 16,
+            "benchmarkLevel": 1,
+            "batteryLevel": 100,
+            "statusBarHeight": 44,
+            "bluetoothEnabled": true,
+            "locationEnabled": true,
+            "wifiEnabled": true,
+            "cameraAuthorized": true,
+            "locationAuthorized": true,
+            "microphoneAuthorized": true,
+            "notificationAuthorized": true,
+            "safeArea": {
+                "top": 44,
+                "left": 0,
+                "right": 414,
+                "bottom": 862,
+                "width": 414,
+                "height": 818
+            },
+            "platform": "devtools",
+            "enableDebug": false,
+            "devicePixelRatio": 3
+        }
+    },
+    "log_filename": "run.log",
+    "error_type": "AttributeError",
+    "error_value": "'FormElement' object has no attribute 'startswith'",
+    "error_stages": [
+        "testMethod"
+    ],
+    "screen_info": [
+        {
+            "name": "setup",
+            "url": "/pages/home/index",
+            "path": "images\\setup.png",
+            "ts": 1658909795,
+            "datetime": "2022-07-27 16:16:35"
+        },
+        {
+            "name": "teardown",
+            "url": "/pages/submitAppointment/index",
+            "path": "images\\teardown.png",
+            "ts": 1658909825,
+            "datetime": "2022-07-27 16:17:05"
+        }
+    ],
+    "check_list": [],
+    "assert_list": [],
+    "perf_data": "{\"startup\": 0, \"avg_cpu\": 0, \"max_cpu\": 0, \"cpu_data_list\": [], \"avg_mem\": 0, \"max_mem\": 0, \"mem_data_list\": [], \"avg_fps\": 0, \"min_fps_rt\": 0, \"fps_data_list\": [], \"fps_time_series_list\": [], \"cpu_time_series_list\": [], \"mem_time_series_list\": []}",
+    "weapp_log_path": "weapp.log",
+    "request_log_path": "request.log",
+    "stop_timestamp": 1658909825.6506045,
+    "appId": "wxa15762d564231c76",
+    "appName": "\u676d\u5dde\u6c47\u5065\u667a\u8c31\u533b\u5b66\u68c0\u9a8c",
+    "source": {
+        "code": [
+            "    def test_01_add_order(self):\n",
+            "        \"\"\"colonscr\u6b63\u5e38\u9884\u7ea6\"\"\"\n",
+            "        HomePage(self.page).click_my()\n",
+            "        MyPage(self.page).click_order()\n",
+            "        OrderPage(self.page).click_add_order()\n",
+            "        OrderPage(self.page).click_select_pro()\n",
+            "        OrderPage(self.page).click_colonscr()\n",
+            "        OrderPage(self.page).input_phone()\n",
+            "        OrderPage(self.page).input_name()\n",
+            "        OrderPage(self.page).click_order_org()\n",
+            "        OrderPage(self.page).click_zjcollege()\n",
+            "        OrderPage(self.page).select_order_time()\n",
+            "        OrderPage(self.page).click_confirm()\n"
+        ],
+        "start": 35
+    },
+    "filename": "result.json"
+}

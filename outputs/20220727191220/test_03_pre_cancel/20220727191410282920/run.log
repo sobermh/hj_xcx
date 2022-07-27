@@ -1,0 +1,69 @@
+INFO  2022-07-27 19:14:10,283 minitest.py _miniSetUp      241 =========Current case: test_03_pre_cancel=========
+INFO  2022-07-27 19:14:10,284 minitest.py _miniSetUp      242 package info: E:.PycharmProjects.hj_xcx.case.test_order, case info: TestOrder.test_03_pre_cancel
+INFO  2022-07-27 19:14:10,284 basenative.py wrapper         22  call BaseNative.back_to_miniprogram
+INFO  2022-07-27 19:14:10,284 basenative.py back_to_miniprogram 476 try back_to_miniprogram 3
+INFO  2022-07-27 19:14:10,285 basenative.py wrapper         26  call BaseNative.back_to_miniprogram end
+INFO  2022-07-27 19:14:10,285 app.py     relaunch        297 ReLaunch: /pages/loadPage/index
+INFO  2022-07-27 19:14:10,593 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 18, 'path': 'pages/loadPage/index', 'query': {}, 'openType': 'reLaunch'}, 1658920450566]}
+INFO  2022-07-27 19:14:10,595 minitest.py capture         523 capture setup.png
+INFO  2022-07-27 19:14:10,596 basenative.py wrapper         22  call IdeNative.screen_shot
+INFO  2022-07-27 19:14:10,669 basenative.py wrapper         26  call IdeNative.screen_shot end
+INFO  2022-07-27 19:14:11,277 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 19, 'path': 'pages/home/index', 'query': {}, 'openType': 'reLaunch'}, 1658920451251]}
+ERROR 2022-07-27 19:14:12,919 connection.py _on_error       265 [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+INFO  2022-07-27 19:14:12,920 connection.py _ws_run_forever 151 websocket run forever shutdown
+INFO  2022-07-27 19:14:15,684 basenative.py wrapper         22  call BaseNative.get_start_up
+INFO  2022-07-27 19:14:15,690 basenative.py wrapper         26  call BaseNative.get_start_up end
+INFO  2022-07-27 19:14:15,694 minitest.py capture         523 capture teardown.png
+INFO  2022-07-27 19:14:15,697 basenative.py wrapper         22  call IdeNative.screen_shot
+INFO  2022-07-27 19:14:15,699 minitest.py capture         523 capture teardown.png
+INFO  2022-07-27 19:14:15,701 basenative.py wrapper         22  call IdeNative.screen_shot
+ERROR 2022-07-27 19:14:15,702 minitest.py _miniTearDown   482 Connection is already closed.
+Traceback (most recent call last):
+  File "e:\software\python\lib\site-packages\minium\framework\minitest.py", line 476, in _miniTearDown
+    retry(2)(self.capture)("teardown")
+  File "e:\software\python\lib\site-packages\minium\utils\utils.py", line 59, in wrapper
+    return func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\framework\minitest.py", line 524, in capture
+    self.native.screen_shot(path)
+  File "e:\software\python\lib\site-packages\minium\native\wx_native\basenative.py", line 23, in wrapper
+    result = func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\native\wx_native\idenative.py", line 28, in screen_shot
+    self.mini.app.screen_shot(filename, return_format)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 135, in wrapper
+    result = func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\app.py", line 128, in screen_shot
+    b64_data = self.connection.send("App.captureScreenshot").get("result").get("data")
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 184, in send
+    self._send(message)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 154, in _send
+    return self._client.send(message)
+  File "e:\software\python\lib\site-packages\websocket\_app.py", line 204, in send
+    raise WebSocketConnectionClosedException(
+websocket._exceptions.WebSocketConnectionClosedException: Connection is already closed.
+ERROR 2022-07-27 19:14:15,712 assertbase.py _teardown_collect 271 <bound method TestOrder.test_03_pre_cancel of <case.test_order.TestOrder testMethod=test_03_pre_cancel>>
+Traceback (most recent call last):
+  File "e:\software\python\lib\site-packages\minium\framework\libs\unittest\case.py", line 29, in testPartExecutor
+    yield
+  File "e:\software\python\lib\site-packages\minium\framework\libs\unittest\case.py", line 110, in run
+    self._callTestMethod(testMethod)
+  File "e:\software\python\lib\unittest\case.py", line 549, in _callTestMethod
+    method()
+  File "E:\PycharmProjects\hj_xcx\case\test_order.py", line 56, in test_03_pre_cancel
+    HomePage(self.page).click_my()
+  File "e:\software\python\lib\site-packages\minium\framework\assertbase.py", line 333, in __getattribute__
+    attr = super().__getattribute__(item)
+  File "e:\software\python\lib\site-packages\minium\framework\minitest.py", line 490, in page
+    return self.mini.app.get_current_page()
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 135, in wrapper
+    result = func(*args, **kwargs)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\app.py", line 225, in get_current_page
+    ret = get_current_page()
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\app.py", line 217, in get_current_page
+    ret = self.connection.send("App.getCurrentPage")
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 184, in send
+    self._send(message)
+  File "e:\software\python\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 154, in _send
+    return self._client.send(message)
+  File "e:\software\python\lib\site-packages\websocket\_app.py", line 204, in send
+    raise WebSocketConnectionClosedException(
+websocket._exceptions.WebSocketConnectionClosedException: Connection is already closed.

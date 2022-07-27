@@ -1,0 +1,36 @@
+INFO  2022-07-27 12:08:01,894 minitest.py _miniSetUp      241 =========Current case: test_01_add_order=========
+INFO  2022-07-27 12:08:01,896 minitest.py _miniSetUp      242 package info: E:.PycharmProjects.hj_xcx.case.test_order, case info: TestOrder.test_01_add_order
+INFO  2022-07-27 12:08:01,898 basenative.py wrapper         22  call BaseNative.back_to_miniprogram
+INFO  2022-07-27 12:08:01,901 basenative.py back_to_miniprogram 476 try back_to_miniprogram 3
+INFO  2022-07-27 12:08:01,903 basenative.py wrapper         26  call BaseNative.back_to_miniprogram end
+INFO  2022-07-27 12:08:01,905 app.py     relaunch        297 ReLaunch: /pages/loadPage/index
+WARNI 2022-07-27 12:08:06,969 app.py     relaunch        300 ReLaunch(/pages/loadPage/index) but(/pages/home/index)
+INFO  2022-07-27 12:08:06,971 minitest.py capture         523 capture setup.png
+INFO  2022-07-27 12:08:06,972 basenative.py wrapper         22  call IdeNative.screen_shot
+INFO  2022-07-27 12:08:54,860 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 6, 'path': 'pages/home/index', 'query': {}, 'openType': 'reLaunch'}, 1658894934746]}
+INFO  2022-07-27 12:08:55,207 basenative.py wrapper         26  call IdeNative.screen_shot end
+INFO  2022-07-27 12:09:00,273 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 12:09:01,292 page.py    _get_elements_by_css 474 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450901C90>]
+INFO  2022-07-27 12:09:01,295 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 12:09:02,323 page.py    _get_elements_by_css 474 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450901960>]
+INFO  2022-07-27 12:09:02,325 page.py    _get_elements_by_css 467 try to get elements: .van-icon-user-circle-o
+INFO  2022-07-27 12:09:03,350 page.py    _get_elements_by_css 474 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450901C00>]
+INFO  2022-07-27 12:09:03,820 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 7, 'path': 'pages/personal/index', 'query': {}, 'openType': 'reLaunch'}, 1658894943794]}
+INFO  2022-07-27 12:09:04,479 page.py    _get_elements_by_css 467 try to get elements: .card_con
+INFO  2022-07-27 12:09:05,501 page.py    _get_elements_by_css 474 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450900850>, <minium.miniprogram.base_driver.element.BaseElement object at 0x00000294509004C0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450901AB0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450901D20>]
+INFO  2022-07-27 12:09:05,503 page.py    _get_elements_by_css 467 try to get elements: .card_con
+INFO  2022-07-27 12:09:06,515 page.py    _get_elements_by_css 474 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450900640>, <minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450901B10>, <minium.miniprogram.base_driver.element.BaseElement object at 0x00000294509017B0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x00000294509015A0>]
+INFO  2022-07-27 12:09:06,516 page.py    _get_elements_by_css 467 try to get elements: .card_con
+INFO  2022-07-27 12:09:07,529 page.py    _get_elements_by_css 474 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450901B40>, <minium.miniprogram.base_driver.element.BaseElement object at 0x00000294509004F0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x00000294509005E0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450901360>]
+INFO  2022-07-27 12:09:08,875 app.py     _on_route_changed 443 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 9, 'path': 'pages/makeAnAppointment/index', 'query': {}, 'openType': 'navigateTo'}, 1658894948850]}
+INFO  2022-07-27 12:09:09,606 page.py    _get_elements_by_css 467 try to get elements: .van-ellipsis
+INFO  2022-07-27 12:09:10,619 page.py    _get_elements_by_css 474 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450901ED0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450900A30>, <minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450901AB0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450901750>, <minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450901DE0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450901F30>]
+INFO  2022-07-27 12:09:10,622 page.py    _get_elements_by_css 467 try to get elements: .van-ellipsis
+INFO  2022-07-27 12:09:11,649 page.py    _get_elements_by_css 474 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x00000294509018A0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450901C30>, <minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450901540>, <minium.miniprogram.base_driver.element.BaseElement object at 0x00000294509005E0>, <minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450901B70>, <minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450901960>]
+INFO  2022-07-27 12:09:11,650 page.py    _get_elements_by_css 467 try to get elements: .van-ellipsis
+INFO  2022-07-27 12:09:12,664 page.py    _get_elements_by_css 474 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450901930>, <minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450900520>, <minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450901E40>, <minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450901570>, <minium.miniprogram.base_driver.element.BaseElement object at 0x0000029450901450>, <minium.miniprogram.base_driver.element.BaseElement object at 0x00000294509017B0>]
+INFO  2022-07-27 12:09:14,761 basenative.py wrapper         22  call BaseNative.get_start_up
+INFO  2022-07-27 12:09:14,767 basenative.py wrapper         26  call BaseNative.get_start_up end
+INFO  2022-07-27 12:09:14,772 minitest.py capture         523 capture teardown.png
+INFO  2022-07-27 12:09:14,774 basenative.py wrapper         22  call IdeNative.screen_shot
+INFO  2022-07-27 12:09:14,870 basenative.py wrapper         26  call IdeNative.screen_shot end
