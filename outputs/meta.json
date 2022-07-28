@@ -4,6 +4,949 @@
         {
             "case_datas": [
                 {
+                    "case_name": "test_01",
+                    "run_time": "20220728 09:45:56",
+                    "test_type": "TestLogin",
+                    "case_doc": "\u6b63\u786e\u6388\u6743\u767b\u5f55",
+                    "success": true,
+                    "failures": "",
+                    "errors": "",
+                    "start_timestamp": 1658972756.6911087,
+                    "is_failure": false,
+                    "is_error": false,
+                    "module": "E:.PycharmProjects.hj_xcx.case.test_login",
+                    "package": "case",
+                    "failed_line_num": -1,
+                    "device": {
+                        "system_info": {
+                            "screenWidth": 412,
+                            "phoneCalendarAuthorized": true,
+                            "windowHeight": 915,
+                            "bluetoothEnabled": true,
+                            "language": "zh_CN",
+                            "microphoneAuthorized": true,
+                            "fontSizeScaleFactor": 1,
+                            "locationAuthorized": true,
+                            "notificationAuthorized": true,
+                            "model": "M2011K2C",
+                            "statusBarHeight": 40,
+                            "safeArea": {
+                                "width": 412,
+                                "right": 412,
+                                "top": 40,
+                                "left": 0,
+                                "bottom": 915,
+                                "height": 875
+                            },
+                            "brand": "Xiaomi",
+                            "windowWidth": 412,
+                            "locationEnabled": true,
+                            "benchmarkLevel": 33,
+                            "screenHeight": 915,
+                            "abi": "arm64-v8a",
+                            "version": "8.0.24",
+                            "cameraAuthorized": true,
+                            "system": "Android 12",
+                            "fontSizeSetting": 16,
+                            "pixelRatio": 3.5,
+                            "deviceOrientation": "portrait",
+                            "wifiEnabled": true,
+                            "screenTop": 0,
+                            "platform": "android",
+                            "SDKVersion": "2.25.2",
+                            "enableDebug": false,
+                            "devicePixelRatio": 3.5,
+                            "host": {
+                                "env": "WeChat",
+                                "version": 671094847
+                            },
+                            "mode": "default"
+                        }
+                    },
+                    "log_filename": "run.log",
+                    "error_type": "",
+                    "error_value": "",
+                    "error_stages": [],
+                    "screen_info": [
+                        {
+                            "name": "setup",
+                            "url": "",
+                            "path": "images\\setup.png",
+                            "ts": 1658972765,
+                            "datetime": "2022-07-28 09:46:05"
+                        },
+                        {
+                            "name": "teardown",
+                            "url": "/pages/login/index",
+                            "path": "images\\teardown.png",
+                            "ts": 1658972795,
+                            "datetime": "2022-07-28 09:46:35"
+                        }
+                    ],
+                    "check_list": [],
+                    "assert_list": [],
+                    "perf_data": "{\"startup\": 0, \"avg_cpu\": 0, \"max_cpu\": 0, \"cpu_data_list\": [], \"avg_mem\": 0, \"max_mem\": 0, \"mem_data_list\": [], \"avg_fps\": 0, \"min_fps_rt\": 0, \"fps_data_list\": [], \"fps_time_series_list\": [], \"cpu_time_series_list\": [], \"mem_time_series_list\": []}",
+                    "weapp_log_path": "weapp.log",
+                    "request_log_path": "request.log",
+                    "stop_timestamp": 1658972795.7250938,
+                    "appId": "wxa15762d564231c76",
+                    "appName": "\u676d\u5dde\u6c47\u5065\u667a\u8c31\u533b\u5b66\u68c0\u9a8c",
+                    "source": {
+                        "code": [
+                            "    def test_01(self):\n",
+                            "        \"\"\"\u6b63\u786e\u6388\u6743\u767b\u5f55\"\"\"\n",
+                            "        # \u5f39\u51fa\u7684\u6388\u6743\u770b\u6846\u6ca1\u6cd5\u70b9\n",
+                            "        self.page.wait_for(2)\n",
+                            "        self.page.get_element('.van-icon-user-circle-o').click()  # \u70b9\u51fb\u6211\u7684\n",
+                            "        MyPage(self.page).click_login_out()\n",
+                            "        BasePage(self.page).click('.authBtn')\n",
+                            "        self.page.get_element('.authBtn',max_timeout=2).click()  # \u70b9\u51fb\u6388\u6743\u767b\u5f55\n",
+                            "        self.page.wait_for(3)  # \u5f53\u524d\u9875\u9762\u7b49\u5f853s\n",
+                            "        # self.assertEqual('/pages/main/index', self.mini.app.current_page.path, msg='\u767b\u5f55\u5931\u8d25')\n",
+                            "        # \u65ad\u8a00\u767b\u5f55\u540e\u662f\u5426\u8df3\u8f6c\u5230\u9996\u9875\uff0c\u5982\u679c\u65ad\u8a00\u5931\u8d25\uff0c\u5219\u8fd4\u56demgs\"\u767b\u5f55\u5931\u8d25\"\n",
+                            "        self.native.allow_authorize(answer=True)\n",
+                            "        pass\n"
+                        ],
+                        "start": 53
+                    },
+                    "filename": "result.json",
+                    "relative": "20220728094512\\test_01\\20220728094556690111",
+                    "costs": "39.034\u79d2"
+                }
+            ],
+            "summary": {
+                "case_num": 1,
+                "success": 1,
+                "failed": 0,
+                "error": 0,
+                "costs": "39.034\u79d2",
+                "start_time": "2022/07/28 09:45:56",
+                "end_time": "2022/07/28 09:46:35",
+                "detail": [
+                    {
+                        "name": "case",
+                        "case_num": 1,
+                        "success": 1,
+                        "failed": 0,
+                        "error": 0,
+                        "start_time": "2022/07/28 09:45:56",
+                        "end_time": "2022/07/28 09:46:35",
+                        "costs": "39.034\u79d2"
+                    }
+                ]
+            },
+            "unfinished_case_datas": {}
+        },
+        {
+            "case_datas": [
+                {
+                    "case_name": "test_01_add_order",
+                    "run_time": "20220728 09:43:31",
+                    "test_type": "TestOrder",
+                    "case_doc": "colonscr\u6b63\u5e38\u9884\u7ea6",
+                    "success": true,
+                    "failures": "",
+                    "errors": "",
+                    "start_timestamp": 1658972611.329723,
+                    "is_failure": false,
+                    "is_error": false,
+                    "module": "E:.PycharmProjects.hj_xcx.case.test_order",
+                    "package": "case",
+                    "failed_line_num": -1,
+                    "device": {
+                        "system_info": {
+                            "screenWidth": 412,
+                            "phoneCalendarAuthorized": true,
+                            "windowHeight": 915,
+                            "bluetoothEnabled": true,
+                            "language": "zh_CN",
+                            "microphoneAuthorized": true,
+                            "fontSizeScaleFactor": 1,
+                            "locationAuthorized": true,
+                            "notificationAuthorized": true,
+                            "model": "M2011K2C",
+                            "statusBarHeight": 40,
+                            "safeArea": {
+                                "width": 412,
+                                "right": 412,
+                                "top": 40,
+                                "left": 0,
+                                "bottom": 915,
+                                "height": 875
+                            },
+                            "brand": "Xiaomi",
+                            "windowWidth": 412,
+                            "locationEnabled": true,
+                            "benchmarkLevel": 33,
+                            "screenHeight": 915,
+                            "abi": "arm64-v8a",
+                            "version": "8.0.24",
+                            "cameraAuthorized": true,
+                            "system": "Android 12",
+                            "fontSizeSetting": 16,
+                            "pixelRatio": 3.5,
+                            "deviceOrientation": "portrait",
+                            "wifiEnabled": true,
+                            "screenTop": 0,
+                            "platform": "android",
+                            "SDKVersion": "2.25.2",
+                            "enableDebug": false,
+                            "devicePixelRatio": 3.5,
+                            "host": {
+                                "env": "WeChat",
+                                "version": 671094847
+                            },
+                            "mode": "default"
+                        }
+                    },
+                    "log_filename": "run.log",
+                    "error_type": "",
+                    "error_value": "",
+                    "error_stages": [],
+                    "screen_info": [
+                        {
+                            "name": "setup",
+                            "url": "",
+                            "path": "images\\setup.png",
+                            "ts": 1658972612,
+                            "datetime": "2022-07-28 09:43:32"
+                        }
+                    ],
+                    "check_list": [],
+                    "assert_list": [],
+                    "stop_timestamp": 1658972638.0832844,
+                    "appId": "wxa15762d564231c76",
+                    "appName": "\u676d\u5dde\u6c47\u5065\u667a\u8c31\u533b\u5b66\u68c0\u9a8c",
+                    "source": {
+                        "code": [
+                            "    def test_01_add_order(self):\n",
+                            "        \"\"\"colonscr\u6b63\u5e38\u9884\u7ea6\"\"\"\n",
+                            "        HomePage(self.page).click_my()\n",
+                            "        MyPage(self.page).click_order()\n",
+                            "        OrderPage(self.page).click_add_order()\n",
+                            "        OrderPage(self.page).click_select_pro()\n",
+                            "        OrderPage(self.page).click_colonscr()\n",
+                            "        OrderPage(self.page).input_phone()\n",
+                            "        OrderPage(self.page).input_name()\n",
+                            "        OrderPage(self.page).click_order_org()\n",
+                            "        OrderPage(self.page).click_zjcollege()\n",
+                            "        OrderPage(self.page).select_order_time()\n",
+                            "        OrderPage(self.page).click_confirm()\n"
+                        ],
+                        "start": 35
+                    },
+                    "filename": "result.json",
+                    "relative": "20220728094234\\test_01_add_order\\20220728094331328727",
+                    "costs": "26.754\u79d2"
+                }
+            ],
+            "summary": {
+                "case_num": 1,
+                "success": 1,
+                "failed": 0,
+                "error": 0,
+                "costs": "26.754\u79d2",
+                "start_time": "2022/07/28 09:43:31",
+                "end_time": "2022/07/28 09:43:58",
+                "detail": [
+                    {
+                        "name": "case",
+                        "case_num": 1,
+                        "success": 1,
+                        "failed": 0,
+                        "error": 0,
+                        "start_time": "2022/07/28 09:43:31",
+                        "end_time": "2022/07/28 09:43:58",
+                        "costs": "26.754\u79d2"
+                    }
+                ]
+            },
+            "unfinished_case_datas": {}
+        },
+        {
+            "case_datas": [
+                {
+                    "case_name": "test_01_add_order",
+                    "run_time": "20220728 09:39:37",
+                    "test_type": "TestOrder",
+                    "case_doc": "colonscr\u6b63\u5e38\u9884\u7ea6",
+                    "success": false,
+                    "failures": "",
+                    "errors": "Traceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 706, in connect_dev_tool\n    connection = Connection(self.uri, timeout=self.conf.get(\"request_timeout\"))\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 87, in __init__\n    self._connect()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 140, in _connect\n    raise MiniTimeoutError(\nminium.framework.exception.MiniTimeoutError: connect to server timeout: ws://localhost:9420, thread:False\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 664, in launch_dev_tool\n    self.connect_dev_tool()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 721, in connect_dev_tool\n    raise MiniConnectError(\"three times try to connect Dev tool has all fail ...\")\nminium.framework.exception.MiniConnectError: three times try to connect Dev tool has all fail ...\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 706, in connect_dev_tool\n    connection = Connection(self.uri, timeout=self.conf.get(\"request_timeout\"))\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 87, in __init__\n    self._connect()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 140, in _connect\n    raise MiniTimeoutError(\nminium.framework.exception.MiniTimeoutError: connect to server timeout: ws://localhost:9420, thread:False\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\libs\\unittest\\suite.py\", line 48, in _handleClassSetUp\n    _miniClassSetUp()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\minitest.py\", line 203, in _miniClassSetUp\n    cls.mini = get_minium(cls.CONFIG)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\minitest.py\", line 101, in get_minium\n    g_minium = minium.miniprogram.get_minium_driver(conf=cfg, native=g_native)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\__init__.py\", line 28, in get_minium_driver\n    return APP[application](conf, *args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 95, in __init__\n    self.launch_weapp()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 582, in launch_weapp\n    self.launch_dev_tool()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 694, in launch_dev_tool\n    self.connect_dev_tool()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 721, in connect_dev_tool\n    raise MiniConnectError(\"three times try to connect Dev tool has all fail ...\")\nminium.framework.exception.MiniConnectError: three times try to connect Dev tool has all fail ...\n",
+                    "start_timestamp": 1658972377.459098,
+                    "is_failure": false,
+                    "is_error": true,
+                    "module": "E:.PycharmProjects.hj_xcx.case.test_order",
+                    "package": "case",
+                    "failed_line_num": -1,
+                    "device": {},
+                    "log_filename": "run.log",
+                    "error_type": "MiniConnectError",
+                    "error_value": "three times try to connect Dev tool has all fail ...",
+                    "error_stages": [
+                        "_miniClassSetUp"
+                    ],
+                    "screen_info": [],
+                    "check_list": [],
+                    "assert_list": [],
+                    "stop_timestamp": 1658972377.4630873,
+                    "appId": "",
+                    "appName": "",
+                    "source": {
+                        "code": [
+                            "    def test_01_add_order(self):\n",
+                            "        \"\"\"colonscr\u6b63\u5e38\u9884\u7ea6\"\"\"\n",
+                            "        HomePage(self.page).click_my()\n",
+                            "        MyPage(self.page).click_order()\n",
+                            "        OrderPage(self.page).click_add_order()\n",
+                            "        OrderPage(self.page).click_select_pro()\n",
+                            "        OrderPage(self.page).click_colonscr()\n",
+                            "        OrderPage(self.page).input_phone()\n",
+                            "        OrderPage(self.page).input_name()\n",
+                            "        OrderPage(self.page).click_order_org()\n",
+                            "        OrderPage(self.page).click_zjcollege()\n",
+                            "        OrderPage(self.page).select_order_time()\n",
+                            "        OrderPage(self.page).click_confirm()\n"
+                        ],
+                        "start": 35
+                    },
+                    "filename": "result.json",
+                    "relative": "20220728093556\\test_01_add_order\\20220728093937457102",
+                    "costs": "0.004\u79d2"
+                },
+                {
+                    "case_name": "test_02_pre_arrive",
+                    "run_time": "20220728 09:39:37",
+                    "test_type": "TestOrder",
+                    "case_doc": "\u70b9\u51fb\u5df2\u5230\u573a",
+                    "success": false,
+                    "failures": "",
+                    "errors": "Traceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 706, in connect_dev_tool\n    connection = Connection(self.uri, timeout=self.conf.get(\"request_timeout\"))\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 87, in __init__\n    self._connect()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 140, in _connect\n    raise MiniTimeoutError(\nminium.framework.exception.MiniTimeoutError: connect to server timeout: ws://localhost:9420, thread:False\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 664, in launch_dev_tool\n    self.connect_dev_tool()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 721, in connect_dev_tool\n    raise MiniConnectError(\"three times try to connect Dev tool has all fail ...\")\nminium.framework.exception.MiniConnectError: three times try to connect Dev tool has all fail ...\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 706, in connect_dev_tool\n    connection = Connection(self.uri, timeout=self.conf.get(\"request_timeout\"))\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 87, in __init__\n    self._connect()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 140, in _connect\n    raise MiniTimeoutError(\nminium.framework.exception.MiniTimeoutError: connect to server timeout: ws://localhost:9420, thread:False\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\libs\\unittest\\suite.py\", line 48, in _handleClassSetUp\n    _miniClassSetUp()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\minitest.py\", line 203, in _miniClassSetUp\n    cls.mini = get_minium(cls.CONFIG)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\minitest.py\", line 101, in get_minium\n    g_minium = minium.miniprogram.get_minium_driver(conf=cfg, native=g_native)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\__init__.py\", line 28, in get_minium_driver\n    return APP[application](conf, *args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 95, in __init__\n    self.launch_weapp()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 582, in launch_weapp\n    self.launch_dev_tool()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 694, in launch_dev_tool\n    self.connect_dev_tool()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 721, in connect_dev_tool\n    raise MiniConnectError(\"three times try to connect Dev tool has all fail ...\")\nminium.framework.exception.MiniConnectError: three times try to connect Dev tool has all fail ...\n",
+                    "start_timestamp": 1658972377.4900124,
+                    "is_failure": false,
+                    "is_error": true,
+                    "module": "E:.PycharmProjects.hj_xcx.case.test_order",
+                    "package": "case",
+                    "failed_line_num": -1,
+                    "device": {},
+                    "log_filename": "run.log",
+                    "error_type": "MiniConnectError",
+                    "error_value": "three times try to connect Dev tool has all fail ...",
+                    "error_stages": [
+                        "_miniClassSetUp"
+                    ],
+                    "screen_info": [],
+                    "check_list": [],
+                    "assert_list": [],
+                    "stop_timestamp": 1658972377.4920096,
+                    "appId": "",
+                    "appName": "",
+                    "source": {
+                        "code": [
+                            "    def test_02_pre_arrive(self):\n",
+                            "        \"\"\"\u70b9\u51fb\u5df2\u5230\u573a\"\"\"\n",
+                            "        HomePage(self.page).click_my()\n",
+                            "        MyPage(self.page).click_order()\n",
+                            "        OrderPage(self.page).click_pre_arrive()\n"
+                        ],
+                        "start": 48
+                    },
+                    "filename": "result.json",
+                    "relative": "20220728093556\\test_02_pre_arrive\\20220728093937488019",
+                    "costs": "0.002\u79d2"
+                },
+                {
+                    "case_name": "test_03_pre_cancel",
+                    "run_time": "20220728 09:39:37",
+                    "test_type": "TestOrder",
+                    "case_doc": "\u70b9\u51fb\u5df2\u53d6\u6d88",
+                    "success": false,
+                    "failures": "",
+                    "errors": "Traceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 706, in connect_dev_tool\n    connection = Connection(self.uri, timeout=self.conf.get(\"request_timeout\"))\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 87, in __init__\n    self._connect()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 140, in _connect\n    raise MiniTimeoutError(\nminium.framework.exception.MiniTimeoutError: connect to server timeout: ws://localhost:9420, thread:False\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 664, in launch_dev_tool\n    self.connect_dev_tool()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 721, in connect_dev_tool\n    raise MiniConnectError(\"three times try to connect Dev tool has all fail ...\")\nminium.framework.exception.MiniConnectError: three times try to connect Dev tool has all fail ...\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 706, in connect_dev_tool\n    connection = Connection(self.uri, timeout=self.conf.get(\"request_timeout\"))\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 87, in __init__\n    self._connect()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 140, in _connect\n    raise MiniTimeoutError(\nminium.framework.exception.MiniTimeoutError: connect to server timeout: ws://localhost:9420, thread:False\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\libs\\unittest\\suite.py\", line 48, in _handleClassSetUp\n    _miniClassSetUp()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\minitest.py\", line 203, in _miniClassSetUp\n    cls.mini = get_minium(cls.CONFIG)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\minitest.py\", line 101, in get_minium\n    g_minium = minium.miniprogram.get_minium_driver(conf=cfg, native=g_native)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\__init__.py\", line 28, in get_minium_driver\n    return APP[application](conf, *args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 95, in __init__\n    self.launch_weapp()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 582, in launch_weapp\n    self.launch_dev_tool()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 694, in launch_dev_tool\n    self.connect_dev_tool()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 721, in connect_dev_tool\n    raise MiniConnectError(\"three times try to connect Dev tool has all fail ...\")\nminium.framework.exception.MiniConnectError: three times try to connect Dev tool has all fail ...\n",
+                    "start_timestamp": 1658972377.501981,
+                    "is_failure": false,
+                    "is_error": true,
+                    "module": "E:.PycharmProjects.hj_xcx.case.test_order",
+                    "package": "case",
+                    "failed_line_num": -1,
+                    "device": {},
+                    "log_filename": "run.log",
+                    "error_type": "MiniConnectError",
+                    "error_value": "three times try to connect Dev tool has all fail ...",
+                    "error_stages": [
+                        "_miniClassSetUp"
+                    ],
+                    "screen_info": [],
+                    "check_list": [],
+                    "assert_list": [],
+                    "stop_timestamp": 1658972377.502978,
+                    "appId": "",
+                    "appName": "",
+                    "source": {
+                        "code": [
+                            "    def test_03_pre_cancel(self):\n",
+                            "        \"\"\"\u70b9\u51fb\u5df2\u53d6\u6d88\"\"\"\n",
+                            "        HomePage(self.page).click_my()\n",
+                            "        MyPage(self.page).click_order()\n",
+                            "        OrderPage(self.page).click_pre_cancel()\n"
+                        ],
+                        "start": 54
+                    },
+                    "filename": "result.json",
+                    "relative": "20220728093556\\test_03_pre_cancel\\20220728093937500983",
+                    "costs": "0.001\u79d2"
+                }
+            ],
+            "summary": {
+                "case_num": 3,
+                "success": 0,
+                "failed": 0,
+                "error": 3,
+                "costs": "0.044\u79d2",
+                "start_time": "2022/07/28 09:39:37",
+                "end_time": "2022/07/28 09:39:37",
+                "detail": [
+                    {
+                        "name": "case",
+                        "case_num": 3,
+                        "success": 0,
+                        "failed": 0,
+                        "error": 3,
+                        "start_time": "2022/07/28 09:39:37",
+                        "end_time": "2022/07/28 09:39:37",
+                        "costs": "0.044\u79d2"
+                    }
+                ]
+            },
+            "unfinished_case_datas": {}
+        },
+        {
+            "case_datas": [
+                {
+                    "case_name": "test_01_add_order",
+                    "run_time": "20220728 09:28:24",
+                    "test_type": "TestOrder",
+                    "case_doc": "colonscr\u6b63\u5e38\u9884\u7ea6",
+                    "success": false,
+                    "failures": "",
+                    "errors": "Traceback (most recent call last):\n  File \"E:\\PycharmProjects\\hj_xcx\\base\\basepage.py\", line 63, in click\n    self.locator(loc, inner_text=inner_text).click()\n  File \"E:\\PycharmProjects\\hj_xcx\\base\\basepage.py\", line 45, in locator\n    return self.page.get_element(loc,inner_text=inner_text)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 216, in get_element\n    raise MiniElementNotFoundError(\"element[%s] not found\" % selector)\nminium.framework.exception.MiniElementNotFoundError: element[.address] not found\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 29, in testPartExecutor\n    yield\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 110, in run\n    self._callTestMethod(testMethod)\n  File \"e:\\software\\python\\lib\\unittest\\case.py\", line 549, in _callTestMethod\n    method()\n  File \"E:\\PycharmProjects\\hj_xcx\\case\\test_order.py\", line 45, in test_01_add_order\n    OrderPage(self.page).click_zjcollege()\n  File \"E:\\PycharmProjects\\hj_xcx\\page\\order_page.py\", line 93, in click_zjcollege\n    self.click(self.order_orglist_loc)\n  File \"E:\\PycharmProjects\\hj_xcx\\base\\basepage.py\", line 65, in click\n    self.locator_appoint_ele(loc, index).click()\n  File \"E:\\PycharmProjects\\hj_xcx\\base\\basepage.py\", line 50, in locator_appoint_ele\n    return ele[n]\nTypeError: list indices must be integers or slices, not NoneType\n",
+                    "start_timestamp": 1658971704.6545444,
+                    "is_failure": false,
+                    "is_error": true,
+                    "module": "E:.PycharmProjects.hj_xcx.case.test_order",
+                    "package": "case",
+                    "failed_line_num": 45,
+                    "device": {
+                        "system_info": {
+                            "benchmarkLevel": 30,
+                            "language": "zh_CN",
+                            "wifiEnabled": true,
+                            "safeArea": {
+                                "bottom": 862,
+                                "height": 818,
+                                "top": 44,
+                                "width": 414,
+                                "left": 0,
+                                "right": 414
+                            },
+                            "bluetoothAuthorized": true,
+                            "bluetoothEnabled": true,
+                            "fontSizeScaleFactor": 1,
+                            "deviceOrientation": "portrait",
+                            "phoneCalendarAuthorized": false,
+                            "notificationSoundAuthorized": true,
+                            "locationAuthorized": true,
+                            "screenHeight": 896,
+                            "system": "iOS 15.4.1",
+                            "version": "8.0.25",
+                            "windowHeight": 896,
+                            "fontSizeSetting": 17,
+                            "statusBarHeight": 44,
+                            "locationReducedAccuracy": false,
+                            "pixelRatio": 3,
+                            "windowWidth": 414,
+                            "notificationBadgeAuthorized": true,
+                            "notificationAuthorized": true,
+                            "model": "iPhone XS Max China-exclusive<iPhone11,6>",
+                            "batteryLevel": 24,
+                            "locationEnabled": true,
+                            "screenWidth": 414,
+                            "screenTop": 0,
+                            "microphoneAuthorized": true,
+                            "albumAuthorized": true,
+                            "cameraAuthorized": true,
+                            "notificationAlertAuthorized": true,
+                            "brand": "iPhone",
+                            "platform": "ios",
+                            "SDKVersion": "2.25.2",
+                            "enableDebug": false,
+                            "devicePixelRatio": 3,
+                            "host": {
+                                "env": "WeChat",
+                                "appId": "",
+                                "version": 402659627
+                            },
+                            "mode": "default"
+                        }
+                    },
+                    "log_filename": "run.log",
+                    "error_type": "TypeError",
+                    "error_value": "list indices must be integers or slices, not NoneType",
+                    "error_stages": [
+                        "testMethod"
+                    ],
+                    "screen_info": [
+                        {
+                            "name": "setup",
+                            "url": "",
+                            "path": "images\\setup.png",
+                            "ts": 1658971715,
+                            "datetime": "2022-07-28 09:28:35"
+                        },
+                        {
+                            "name": "teardown",
+                            "url": "/pages/product/index",
+                            "path": "images\\teardown.png",
+                            "ts": 1658971777,
+                            "datetime": "2022-07-28 09:29:37"
+                        }
+                    ],
+                    "check_list": [],
+                    "assert_list": [],
+                    "perf_data": "{\"startup\": 0, \"avg_cpu\": 0, \"max_cpu\": 0, \"cpu_data_list\": [], \"avg_mem\": 0, \"max_mem\": 0, \"mem_data_list\": [], \"avg_fps\": 0, \"min_fps_rt\": 0, \"fps_data_list\": [], \"fps_time_series_list\": [], \"cpu_time_series_list\": [], \"mem_time_series_list\": []}",
+                    "weapp_log_path": "weapp.log",
+                    "request_log_path": "request.log",
+                    "stop_timestamp": 1658971777.7221358,
+                    "appId": "wxa15762d564231c76",
+                    "appName": "\u676d\u5dde\u6c47\u5065\u667a\u8c31\u533b\u5b66\u68c0\u9a8c",
+                    "source": {
+                        "code": [
+                            "    def test_01_add_order(self):\n",
+                            "        \"\"\"colonscr\u6b63\u5e38\u9884\u7ea6\"\"\"\n",
+                            "        HomePage(self.page).click_my()\n",
+                            "        MyPage(self.page).click_order()\n",
+                            "        OrderPage(self.page).click_add_order()\n",
+                            "        OrderPage(self.page).click_select_pro()\n",
+                            "        OrderPage(self.page).click_colonscr()\n",
+                            "        OrderPage(self.page).input_phone()\n",
+                            "        OrderPage(self.page).input_name()\n",
+                            "        OrderPage(self.page).click_order_org()\n",
+                            "        OrderPage(self.page).click_zjcollege()\n",
+                            "        OrderPage(self.page).select_order_time()\n",
+                            "        OrderPage(self.page).click_confirm()\n"
+                        ],
+                        "start": 35
+                    },
+                    "filename": "result.json",
+                    "relative": "20220728092355\\test_01_add_order\\20220728092824653545",
+                    "costs": "01\u5206\u949f13\u79d2"
+                },
+                {
+                    "case_name": "test_02_pre_arrive",
+                    "run_time": "20220728 09:29:37",
+                    "test_type": "TestOrder",
+                    "case_doc": "\u70b9\u51fb\u5df2\u5230\u573a",
+                    "success": false,
+                    "failures": "",
+                    "errors": "Traceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 29, in testPartExecutor\n    yield\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 110, in run\n    self._callTestMethod(testMethod)\n  File \"e:\\software\\python\\lib\\unittest\\case.py\", line 549, in _callTestMethod\n    method()\n  File \"E:\\PycharmProjects\\hj_xcx\\case\\test_order.py\", line 50, in test_02_pre_arrive\n    HomePage(self.page).click_my()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\assertbase.py\", line 333, in __getattribute__\n    attr = super().__getattribute__(item)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\minitest.py\", line 490, in page\n    return self.mini.app.get_current_page()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\app.py\", line 225, in get_current_page\n    ret = get_current_page()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\app.py\", line 217, in get_current_page\n    ret = self.connection.send(\"App.getCurrentPage\")\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 185, in send\n    return self._receive_response(cmd)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 214, in _receive_response\n    raise MiniTimeoutError(\nminium.framework.exception.MiniTimeoutError: [call App.getCurrentPage] receive from remote timeout, id: 8c7c2779-3643-420b-8231-1b8c2e393d4d\n",
+                    "start_timestamp": 1658971777.7441068,
+                    "is_failure": false,
+                    "is_error": true,
+                    "module": "E:.PycharmProjects.hj_xcx.case.test_order",
+                    "package": "case",
+                    "failed_line_num": 50,
+                    "device": {
+                        "system_info": {
+                            "benchmarkLevel": 30,
+                            "language": "zh_CN",
+                            "wifiEnabled": true,
+                            "safeArea": {
+                                "bottom": 862,
+                                "height": 818,
+                                "top": 44,
+                                "width": 414,
+                                "left": 0,
+                                "right": 414
+                            },
+                            "bluetoothAuthorized": true,
+                            "bluetoothEnabled": true,
+                            "fontSizeScaleFactor": 1,
+                            "deviceOrientation": "portrait",
+                            "phoneCalendarAuthorized": false,
+                            "notificationSoundAuthorized": true,
+                            "locationAuthorized": true,
+                            "screenHeight": 896,
+                            "system": "iOS 15.4.1",
+                            "version": "8.0.25",
+                            "windowHeight": 896,
+                            "fontSizeSetting": 17,
+                            "statusBarHeight": 44,
+                            "locationReducedAccuracy": false,
+                            "pixelRatio": 3,
+                            "windowWidth": 414,
+                            "notificationBadgeAuthorized": true,
+                            "notificationAuthorized": true,
+                            "model": "iPhone XS Max China-exclusive<iPhone11,6>",
+                            "batteryLevel": 24,
+                            "locationEnabled": true,
+                            "screenWidth": 414,
+                            "screenTop": 0,
+                            "microphoneAuthorized": true,
+                            "albumAuthorized": true,
+                            "cameraAuthorized": true,
+                            "notificationAlertAuthorized": true,
+                            "brand": "iPhone",
+                            "platform": "ios",
+                            "SDKVersion": "2.25.2",
+                            "enableDebug": false,
+                            "devicePixelRatio": 3,
+                            "host": {
+                                "env": "WeChat",
+                                "appId": "",
+                                "version": 402659627
+                            },
+                            "mode": "default"
+                        }
+                    },
+                    "log_filename": "run.log",
+                    "error_type": "MiniTimeoutError",
+                    "error_value": "[call App.getCurrentPage] receive from remote timeout, id: 8c7c2779-3643-420b-8231-1b8c2e393d4d",
+                    "error_stages": [
+                        "testMethod"
+                    ],
+                    "screen_info": [
+                        {
+                            "name": "setup",
+                            "url": "/pages/product/index",
+                            "path": "images\\setup.png",
+                            "ts": 1658971778,
+                            "datetime": "2022-07-28 09:29:38"
+                        },
+                        {
+                            "name": "teardown",
+                            "url": "/pages/product/index",
+                            "path": "images\\teardown.png",
+                            "ts": 1658971843,
+                            "datetime": "2022-07-28 09:30:43"
+                        }
+                    ],
+                    "check_list": [],
+                    "assert_list": [],
+                    "perf_data": "{\"startup\": 0, \"avg_cpu\": 0, \"max_cpu\": 0, \"cpu_data_list\": [], \"avg_mem\": 0, \"max_mem\": 0, \"mem_data_list\": [], \"avg_fps\": 0, \"min_fps_rt\": 0, \"fps_data_list\": [], \"fps_time_series_list\": [], \"cpu_time_series_list\": [], \"mem_time_series_list\": []}",
+                    "weapp_log_path": "weapp.log",
+                    "request_log_path": "request.log",
+                    "stop_timestamp": 1658971843.939438,
+                    "appId": "wxa15762d564231c76",
+                    "appName": "\u676d\u5dde\u6c47\u5065\u667a\u8c31\u533b\u5b66\u68c0\u9a8c",
+                    "source": {
+                        "code": [
+                            "    def test_02_pre_arrive(self):\n",
+                            "        \"\"\"\u70b9\u51fb\u5df2\u5230\u573a\"\"\"\n",
+                            "        HomePage(self.page).click_my()\n",
+                            "        MyPage(self.page).click_order()\n",
+                            "        OrderPage(self.page).click_pre_arrive()\n"
+                        ],
+                        "start": 48
+                    },
+                    "filename": "result.json",
+                    "relative": "20220728092355\\test_02_pre_arrive\\20220728092937741116",
+                    "costs": "01\u5206\u949f06\u79d2"
+                },
+                {
+                    "case_name": "test_03_pre_cancel",
+                    "run_time": "20220728 09:30:43",
+                    "test_type": "TestOrder",
+                    "case_doc": "\u70b9\u51fb\u5df2\u53d6\u6d88",
+                    "success": false,
+                    "failures": "",
+                    "errors": "Traceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 29, in testPartExecutor\n    yield\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 106, in run\n    self._callSetUp()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 59, in _callSetUp\n    self.setUp()\n  File \"E:\\PycharmProjects\\hj_xcx\\base\\basecase.py\", line 49, in setUp\n    self.page.wait_for(5)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\assertbase.py\", line 333, in __getattribute__\n    attr = super().__getattribute__(item)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\minitest.py\", line 490, in page\n    return self.mini.app.get_current_page()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\app.py\", line 225, in get_current_page\n    ret = get_current_page()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\app.py\", line 217, in get_current_page\n    ret = self.connection.send(\"App.getCurrentPage\")\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 185, in send\n    return self._receive_response(cmd)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 214, in _receive_response\n    raise MiniTimeoutError(\nminium.framework.exception.MiniTimeoutError: [call App.getCurrentPage] receive from remote timeout, id: 775db831-a506-466e-8899-4ffa40e6c0cc\n",
+                    "start_timestamp": 1658971843.9424312,
+                    "is_failure": false,
+                    "is_error": true,
+                    "module": "E:.PycharmProjects.hj_xcx.case.test_order",
+                    "package": "case",
+                    "failed_line_num": -1,
+                    "device": {
+                        "system_info": {
+                            "benchmarkLevel": 30,
+                            "language": "zh_CN",
+                            "wifiEnabled": true,
+                            "safeArea": {
+                                "bottom": 862,
+                                "height": 818,
+                                "top": 44,
+                                "width": 414,
+                                "left": 0,
+                                "right": 414
+                            },
+                            "bluetoothAuthorized": true,
+                            "bluetoothEnabled": true,
+                            "fontSizeScaleFactor": 1,
+                            "deviceOrientation": "portrait",
+                            "phoneCalendarAuthorized": false,
+                            "notificationSoundAuthorized": true,
+                            "locationAuthorized": true,
+                            "screenHeight": 896,
+                            "system": "iOS 15.4.1",
+                            "version": "8.0.25",
+                            "windowHeight": 896,
+                            "fontSizeSetting": 17,
+                            "statusBarHeight": 44,
+                            "locationReducedAccuracy": false,
+                            "pixelRatio": 3,
+                            "windowWidth": 414,
+                            "notificationBadgeAuthorized": true,
+                            "notificationAuthorized": true,
+                            "model": "iPhone XS Max China-exclusive<iPhone11,6>",
+                            "batteryLevel": 24,
+                            "locationEnabled": true,
+                            "screenWidth": 414,
+                            "screenTop": 0,
+                            "microphoneAuthorized": true,
+                            "albumAuthorized": true,
+                            "cameraAuthorized": true,
+                            "notificationAlertAuthorized": true,
+                            "brand": "iPhone",
+                            "platform": "ios",
+                            "SDKVersion": "2.25.2",
+                            "enableDebug": false,
+                            "devicePixelRatio": 3,
+                            "host": {
+                                "env": "WeChat",
+                                "appId": "",
+                                "version": 402659627
+                            },
+                            "mode": "default"
+                        }
+                    },
+                    "log_filename": "run.log",
+                    "error_type": "MiniTimeoutError",
+                    "error_value": "[call App.getCurrentPage] receive from remote timeout, id: 775db831-a506-466e-8899-4ffa40e6c0cc",
+                    "error_stages": [
+                        "setUp"
+                    ],
+                    "screen_info": [
+                        {
+                            "name": "setup",
+                            "url": "/pages/product/index",
+                            "path": "images\\setup.png",
+                            "ts": 1658971844,
+                            "datetime": "2022-07-28 09:30:44"
+                        },
+                        {
+                            "name": "teardown",
+                            "url": "/pages/product/index",
+                            "path": "images\\teardown.png",
+                            "ts": 1658971904,
+                            "datetime": "2022-07-28 09:31:44"
+                        }
+                    ],
+                    "check_list": [],
+                    "assert_list": [],
+                    "perf_data": "{\"startup\": 0, \"avg_cpu\": 0, \"max_cpu\": 0, \"cpu_data_list\": [], \"avg_mem\": 0, \"max_mem\": 0, \"mem_data_list\": [], \"avg_fps\": 0, \"min_fps_rt\": 0, \"fps_data_list\": [], \"fps_time_series_list\": [], \"cpu_time_series_list\": [], \"mem_time_series_list\": []}",
+                    "weapp_log_path": "weapp.log",
+                    "request_log_path": "request.log",
+                    "stop_timestamp": 1658971904.970307,
+                    "appId": "wxa15762d564231c76",
+                    "appName": "\u676d\u5dde\u6c47\u5065\u667a\u8c31\u533b\u5b66\u68c0\u9a8c",
+                    "source": {
+                        "code": [
+                            "    def test_03_pre_cancel(self):\n",
+                            "        \"\"\"\u70b9\u51fb\u5df2\u53d6\u6d88\"\"\"\n",
+                            "        HomePage(self.page).click_my()\n",
+                            "        MyPage(self.page).click_order()\n",
+                            "        OrderPage(self.page).click_pre_cancel()\n"
+                        ],
+                        "start": 54
+                    },
+                    "filename": "result.json",
+                    "relative": "20220728092355\\test_03_pre_cancel\\20220728093043942431",
+                    "costs": "01\u5206\u949f01\u79d2"
+                }
+            ],
+            "summary": {
+                "case_num": 3,
+                "success": 0,
+                "failed": 0,
+                "error": 3,
+                "costs": "03\u5206\u949f20\u79d2",
+                "start_time": "2022/07/28 09:28:24",
+                "end_time": "2022/07/28 09:31:44",
+                "detail": [
+                    {
+                        "name": "case",
+                        "case_num": 3,
+                        "success": 0,
+                        "failed": 0,
+                        "error": 3,
+                        "start_time": "2022/07/28 09:28:24",
+                        "end_time": "2022/07/28 09:31:44",
+                        "costs": "03\u5206\u949f20\u79d2"
+                    }
+                ]
+            },
+            "unfinished_case_datas": {}
+        },
+        {
+            "case_datas": [
+                {
+                    "case_name": "test_01_add_order",
+                    "run_time": "20220728 09:16:28",
+                    "test_type": "TestOrder",
+                    "case_doc": "colonscr\u6b63\u5e38\u9884\u7ea6",
+                    "success": false,
+                    "failures": "",
+                    "errors": "Traceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 706, in connect_dev_tool\n    connection = Connection(self.uri, timeout=self.conf.get(\"request_timeout\"))\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 87, in __init__\n    self._connect()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 140, in _connect\n    raise MiniTimeoutError(\nminium.framework.exception.MiniTimeoutError: connect to server timeout: ws://localhost:9420, thread:False\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 664, in launch_dev_tool\n    self.connect_dev_tool()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 721, in connect_dev_tool\n    raise MiniConnectError(\"three times try to connect Dev tool has all fail ...\")\nminium.framework.exception.MiniConnectError: three times try to connect Dev tool has all fail ...\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 706, in connect_dev_tool\n    connection = Connection(self.uri, timeout=self.conf.get(\"request_timeout\"))\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 87, in __init__\n    self._connect()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 140, in _connect\n    raise MiniTimeoutError(\nminium.framework.exception.MiniTimeoutError: connect to server timeout: ws://localhost:9420, thread:False\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\libs\\unittest\\suite.py\", line 48, in _handleClassSetUp\n    _miniClassSetUp()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\minitest.py\", line 203, in _miniClassSetUp\n    cls.mini = get_minium(cls.CONFIG)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\minitest.py\", line 101, in get_minium\n    g_minium = minium.miniprogram.get_minium_driver(conf=cfg, native=g_native)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\__init__.py\", line 28, in get_minium_driver\n    return APP[application](conf, *args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 95, in __init__\n    self.launch_weapp()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 582, in launch_weapp\n    self.launch_dev_tool()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 694, in launch_dev_tool\n    self.connect_dev_tool()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 721, in connect_dev_tool\n    raise MiniConnectError(\"three times try to connect Dev tool has all fail ...\")\nminium.framework.exception.MiniConnectError: three times try to connect Dev tool has all fail ...\n",
+                    "start_timestamp": 1658970988.7313015,
+                    "is_failure": false,
+                    "is_error": true,
+                    "module": "E:.PycharmProjects.hj_xcx.case.test_order",
+                    "package": "case",
+                    "failed_line_num": -1,
+                    "device": {},
+                    "log_filename": "run.log",
+                    "error_type": "MiniConnectError",
+                    "error_value": "three times try to connect Dev tool has all fail ...",
+                    "error_stages": [
+                        "_miniClassSetUp"
+                    ],
+                    "screen_info": [],
+                    "check_list": [],
+                    "assert_list": [],
+                    "stop_timestamp": 1658970988.7488487,
+                    "appId": "",
+                    "appName": "",
+                    "source": {
+                        "code": [
+                            "    def test_01_add_order(self):\n",
+                            "        \"\"\"colonscr\u6b63\u5e38\u9884\u7ea6\"\"\"\n",
+                            "        HomePage(self.page).click_my()\n",
+                            "        MyPage(self.page).click_order()\n",
+                            "        OrderPage(self.page).click_add_order()\n",
+                            "        OrderPage(self.page).click_select_pro()\n",
+                            "        OrderPage(self.page).click_colonscr()\n",
+                            "        OrderPage(self.page).input_phone()\n",
+                            "        OrderPage(self.page).input_name()\n",
+                            "        OrderPage(self.page).click_order_org()\n",
+                            "        OrderPage(self.page).click_zjcollege()\n",
+                            "        OrderPage(self.page).select_order_time()\n",
+                            "        OrderPage(self.page).click_confirm()\n"
+                        ],
+                        "start": 35
+                    },
+                    "filename": "result.json",
+                    "relative": "20220728091244\\test_01_add_order\\20220728091628728316",
+                    "costs": "0.018\u79d2"
+                },
+                {
+                    "case_name": "test_02_pre_arrive",
+                    "run_time": "20220728 09:16:28",
+                    "test_type": "TestOrder",
+                    "case_doc": "\u70b9\u51fb\u5df2\u5230\u573a",
+                    "success": false,
+                    "failures": "",
+                    "errors": "Traceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 706, in connect_dev_tool\n    connection = Connection(self.uri, timeout=self.conf.get(\"request_timeout\"))\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 87, in __init__\n    self._connect()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 140, in _connect\n    raise MiniTimeoutError(\nminium.framework.exception.MiniTimeoutError: connect to server timeout: ws://localhost:9420, thread:False\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 664, in launch_dev_tool\n    self.connect_dev_tool()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 721, in connect_dev_tool\n    raise MiniConnectError(\"three times try to connect Dev tool has all fail ...\")\nminium.framework.exception.MiniConnectError: three times try to connect Dev tool has all fail ...\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 706, in connect_dev_tool\n    connection = Connection(self.uri, timeout=self.conf.get(\"request_timeout\"))\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 87, in __init__\n    self._connect()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 140, in _connect\n    raise MiniTimeoutError(\nminium.framework.exception.MiniTimeoutError: connect to server timeout: ws://localhost:9420, thread:False\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\libs\\unittest\\suite.py\", line 48, in _handleClassSetUp\n    _miniClassSetUp()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\minitest.py\", line 203, in _miniClassSetUp\n    cls.mini = get_minium(cls.CONFIG)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\minitest.py\", line 101, in get_minium\n    g_minium = minium.miniprogram.get_minium_driver(conf=cfg, native=g_native)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\__init__.py\", line 28, in get_minium_driver\n    return APP[application](conf, *args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 95, in __init__\n    self.launch_weapp()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 582, in launch_weapp\n    self.launch_dev_tool()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 694, in launch_dev_tool\n    self.connect_dev_tool()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 721, in connect_dev_tool\n    raise MiniConnectError(\"three times try to connect Dev tool has all fail ...\")\nminium.framework.exception.MiniConnectError: three times try to connect Dev tool has all fail ...\n",
+                    "start_timestamp": 1658970988.7787352,
+                    "is_failure": false,
+                    "is_error": true,
+                    "module": "E:.PycharmProjects.hj_xcx.case.test_order",
+                    "package": "case",
+                    "failed_line_num": -1,
+                    "device": {},
+                    "log_filename": "run.log",
+                    "error_type": "MiniConnectError",
+                    "error_value": "three times try to connect Dev tool has all fail ...",
+                    "error_stages": [
+                        "_miniClassSetUp"
+                    ],
+                    "screen_info": [],
+                    "check_list": [],
+                    "assert_list": [],
+                    "stop_timestamp": 1658970988.7807314,
+                    "appId": "",
+                    "appName": "",
+                    "source": {
+                        "code": [
+                            "    def test_02_pre_arrive(self):\n",
+                            "        \"\"\"\u70b9\u51fb\u5df2\u5230\u573a\"\"\"\n",
+                            "        HomePage(self.page).click_my()\n",
+                            "        MyPage(self.page).click_order()\n",
+                            "        OrderPage(self.page).click_pre_arrive()\n"
+                        ],
+                        "start": 48
+                    },
+                    "filename": "result.json",
+                    "relative": "20220728091244\\test_02_pre_arrive\\20220728091628777738",
+                    "costs": "0.002\u79d2"
+                },
+                {
+                    "case_name": "test_03_pre_cancel",
+                    "run_time": "20220728 09:16:28",
+                    "test_type": "TestOrder",
+                    "case_doc": "\u70b9\u51fb\u5df2\u53d6\u6d88",
+                    "success": false,
+                    "failures": "",
+                    "errors": "Traceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 706, in connect_dev_tool\n    connection = Connection(self.uri, timeout=self.conf.get(\"request_timeout\"))\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 87, in __init__\n    self._connect()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 140, in _connect\n    raise MiniTimeoutError(\nminium.framework.exception.MiniTimeoutError: connect to server timeout: ws://localhost:9420, thread:False\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 664, in launch_dev_tool\n    self.connect_dev_tool()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 721, in connect_dev_tool\n    raise MiniConnectError(\"three times try to connect Dev tool has all fail ...\")\nminium.framework.exception.MiniConnectError: three times try to connect Dev tool has all fail ...\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 706, in connect_dev_tool\n    connection = Connection(self.uri, timeout=self.conf.get(\"request_timeout\"))\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 87, in __init__\n    self._connect()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 140, in _connect\n    raise MiniTimeoutError(\nminium.framework.exception.MiniTimeoutError: connect to server timeout: ws://localhost:9420, thread:False\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\libs\\unittest\\suite.py\", line 48, in _handleClassSetUp\n    _miniClassSetUp()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\minitest.py\", line 203, in _miniClassSetUp\n    cls.mini = get_minium(cls.CONFIG)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\framework\\minitest.py\", line 101, in get_minium\n    g_minium = minium.miniprogram.get_minium_driver(conf=cfg, native=g_native)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\__init__.py\", line 28, in get_minium_driver\n    return APP[application](conf, *args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 95, in __init__\n    self.launch_weapp()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 582, in launch_weapp\n    self.launch_dev_tool()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 694, in launch_dev_tool\n    self.connect_dev_tool()\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 135, in wrapper\n    result = func(*args, **kwargs)\n  File \"e:\\software\\python\\lib\\site-packages\\minium\\miniprogram\\wx_minium.py\", line 721, in connect_dev_tool\n    raise MiniConnectError(\"three times try to connect Dev tool has all fail ...\")\nminium.framework.exception.MiniConnectError: three times try to connect Dev tool has all fail ...\n",
+                    "start_timestamp": 1658970988.7968652,
+                    "is_failure": false,
+                    "is_error": true,
+                    "module": "E:.PycharmProjects.hj_xcx.case.test_order",
+                    "package": "case",
+                    "failed_line_num": -1,
+                    "device": {},
+                    "log_filename": "run.log",
+                    "error_type": "MiniConnectError",
+                    "error_value": "three times try to connect Dev tool has all fail ...",
+                    "error_stages": [
+                        "_miniClassSetUp"
+                    ],
+                    "screen_info": [],
+                    "check_list": [],
+                    "assert_list": [],
+                    "stop_timestamp": 1658970988.797895,
+                    "appId": "",
+                    "appName": "",
+                    "source": {
+                        "code": [
+                            "    def test_03_pre_cancel(self):\n",
+                            "        \"\"\"\u70b9\u51fb\u5df2\u53d6\u6d88\"\"\"\n",
+                            "        HomePage(self.page).click_my()\n",
+                            "        MyPage(self.page).click_order()\n",
+                            "        OrderPage(self.page).click_pre_cancel()\n"
+                        ],
+                        "start": 54
+                    },
+                    "filename": "result.json",
+                    "relative": "20220728091244\\test_03_pre_cancel\\20220728091628795898",
+                    "costs": "0.001\u79d2"
+                }
+            ],
+            "summary": {
+                "case_num": 3,
+                "success": 0,
+                "failed": 0,
+                "error": 3,
+                "costs": "0.067\u79d2",
+                "start_time": "2022/07/28 09:16:28",
+                "end_time": "2022/07/28 09:16:28",
+                "detail": [
+                    {
+                        "name": "case",
+                        "case_num": 3,
+                        "success": 0,
+                        "failed": 0,
+                        "error": 3,
+                        "start_time": "2022/07/28 09:16:28",
+                        "end_time": "2022/07/28 09:16:28",
+                        "costs": "0.067\u79d2"
+                    }
+                ]
+            },
+            "unfinished_case_datas": {}
+        },
+        {
+            "case_datas": [
+                {
                     "case_name": "test_01_add_order",
                     "run_time": "20220727 19:15:03",
                     "test_type": "TestOrder",

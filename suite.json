@@ -4,7 +4,7 @@
         "case_list": [
           "test*"
         ],
-        "pkg": "case.test_order"
+        "pkg": "case.test_login"
       }
 
 
